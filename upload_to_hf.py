@@ -59,8 +59,16 @@ if __name__ == "__main__":
     print("test num_rows:", health_dataset["test"].num_rows)
     print("validation num_rows:", health_dataset["validation"].num_rows)
 
+    # exclude questions that aren't related to health
+    excluded_ids = set()
+    with open("problem_ids.json", "r") as f:
+        data = json.load(f)
+        excluded_ids.update(data["unrelated"])
+        excluded_ids.update(data["tangentially_related"])
+
     # combine them into one dataset
     combined = concatenate_datasets([health_dataset["test"], health_dataset["validation"]])
+    # combined = combined.filter(lambda ex: ex["question_id"] not in excluded_ids)
     combined = combined.map(preprocess)
     print(f"Combined dataset num_rows: {combined.num_rows}")
 
@@ -82,9 +90,9 @@ if __name__ == "__main__":
     save_json(dataset["test"].to_list(), test_path)
     print(f"Saved test dataset to: {test_path}")
 
-    print(f"\nPushing dataset to Hugging Face Hub as {HF_REPO_ID} (private={PRIVATE})...")
-    create_repo(HF_REPO_ID, repo_type="dataset", private=PRIVATE, exist_ok=True)
+    # print(f"\nPushing dataset to Hugging Face Hub as {HF_REPO_ID} (private={PRIVATE})...")
+    # create_repo(HF_REPO_ID, repo_type="dataset", private=PRIVATE, exist_ok=True)
 
 
-    dataset.push_to_hub(HF_REPO_ID, private=PRIVATE)
-    print(f"Dataset pushed to https://huggingface.co/datasets/{HF_REPO_ID}")
+    # dataset.push_to_hub(HF_REPO_ID, private=PRIVATE)
+    # print(f"Dataset pushed to https://huggingface.co/datasets/{HF_REPO_ID}")

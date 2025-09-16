@@ -1,0 +1,49 @@
+{
+    "unrelated": [
+        6717,
+        6079,
+        6205,
+        6394,
+        6645,
+        6018,
+        6021
+    ],
+    "memorization_not_health": [
+        6022,
+        6049
+    ],
+    "tangentially_related": [
+        6522,
+        6139,
+        6646,
+        6647,
+        6328,
+        6003,
+        6006,
+        6008,
+        6016,
+        6023,
+        6049,
+        6053,
+        6054,
+        6063
+    ],
+    "issue_with_answer_choices": [
+        6065,
+        6043,
+        6044
+    ],
+    "duplicates": [
+        [6036, 6037],
+        [6043, 6044],
+        [6050, 6051],
+        [6061, 6062]
+    ],
+    "problem_src":
+        [
+            "ori_mmlu-nutrition",
+            "ori_mmlu-college_medicine"
+
+        ]
+
+}

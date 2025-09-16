@@ -23,3 +23,8 @@ python upload_to_hf.py \
 Voila! The dataset now lives [on HuggingFace](https://huggingface.co/datasets/mkieffer/MMLU-Pro-Health).
 
 All credit belongs to the [original authors](https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro)
+
+**158 duplicate pairs identified in MMLU-Pro**:
+```sh
+python find_duplicates.py
+```

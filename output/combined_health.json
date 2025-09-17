@@ -665,25 +665,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6037,
-        "question": "A 47-year-old man is brought to the emergency department 2 hours after the sudden onset of shortness of breath, severe chest pain, and sweating. He has no history of similar symptoms. He has hypertension treated with hydrochlorothiazide. He has smoked one pack of cigarettes daily for 30 years. His pulse is 110/min, respirations are 24/min, and blood pressure is 110/50 mm Hg. A grade 3/6, diastolic blowing murmur is heard over the left sternal border and radiates to the right sternal border. Femoral pulses are decreased bilaterally. An ECG shows left ventricular hypertrophy. Which of the following is the most likely diagnosis? ",
-        "options": {
-            "A": "Angina pectoris",
-            "B": "Pulmonary embolism",
-            "C": "Aortic dissection",
-            "D": "Esophageal rupture",
-            "E": "Hypertensive crisis",
-            "F": "Thoracic aortic aneurysm",
-            "G": "Aortic stenosis",
-            "H": "Congestive heart failure",
-            "I": "Mitral valve prolapse",
-            "J": "Acute myocardial infarction"
-        },
-        "answer": "C",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6038,
         "question": "A 78-year-old male presents to the office\u00a0with the complaint of severe neck pain. He rates the pain as a 7\u00a0on a scale of 0 to 10 scale. He denies any trauma but reports that he had been doing a lot of painting over the past week. He denies any radicular pain or numbness. Cervical range of motion is moderately limited in all fields. He is treated with articulatory springing technique. Four hours later the physician receives a call from the local emergency department, where the patient presented confused, nauseated, and vertiginous. The physician may be found liable if",
         "options": {
@@ -760,25 +741,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6042,
-        "question": "A 25-year-old man is brought to the emergency department because of a 6-day history of fever, severe muscle pain, and diffuse, painful swelling of his neck, underarms, and groin area. The symptoms began after returning from a camping trip in New Mexico. He appears ill and lethargic and can barely answer questions. His temperature is 39.2\u00b0C (102.5\u00b0F), pulse is 120/min, respirations are 22/min, and blood pressure is 110/70 mm Hg. Physical examination shows generalized scattered black maculae. Examination of the right upper extremity shows an erythematous, solid, tender mass on the underside of the upper extremity just above the elbow; the mass is draining blood and necrotic material. The most effective antibiotic for this patient\u2019s disorder will interfere with which of the following cellular processes or enzymes? ",
-        "options": {
-            "A": "Ribosomal assembly",
-            "B": "RNA polymerase activity",
-            "C": "Mitochondrial ATP synthesis",
-            "D": "Glucuronosyltransferase",
-            "E": "DNA helicase",
-            "F": "Proteasomal degradation",
-            "G": "Phospholipase function",
-            "H": "Lipid synthesis",
-            "I": "Topoisomerase II activity",
-            "J": "Cell wall synthesis"
-        },
-        "answer": "A",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6043,
         "question": "A 16-year-old boy is admitted to the emergency department because of a knife wound to the left side of his chest. An x-ray of the chest shows an air-fluid level in the left side of the chest, partial collapse of the left lung, and elevation of the stomach bubble. The mediastinum is in the midline. Which of the following is the most likely diagnosis?",
         "options": {
@@ -794,25 +756,6 @@
             "J": "Pleural effusion"
         },
         "answer": "B",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6044,
-        "question": "A 16-year-old boy is admitted to the emergency department because of a knife wound to the left side of his chest. An x-ray of the chest shows an air-fluid level in the left side of the chest, partial collapse of the left lung, and elevation of the stomach bubble. The mediastinum is in the midline. Which of the following is the most likely diagnosis? ",
-        "options": {
-            "A": "Pneumothorax, not under tension",
-            "B": "Flail chest",
-            "C": "Pleural effusion",
-            "D": "Pulmonary contusion",
-            "E": "Tension pneumothorax",
-            "F": "Hemothorax, not under tension",
-            "G": "Hemopneumothorax, not under tension",
-            "H": "Cardiac tamponade",
-            "I": "Tension hemopneumothorax",
-            "J": "Rib fracture"
-        },
-        "answer": "G",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -927,25 +870,6 @@
             "J": "Synthesis of methylene tetrahydrofolate"
         },
         "answer": "I",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6051,
-        "question": "Which of the following is a function of biotin?\n ",
-        "options": {
-            "A": "Synthesis of methylene tetrahydrofolate",
-            "B": "Conversion of glucose to glycogen",
-            "C": "Synthesis of purine nucleotides",
-            "D": "Synthesis of methionine from homocysteine",
-            "E": "Oxidation of glucose to carbon dioxide and water",
-            "F": "Carboxylation of pyruvate to oxaloacetate",
-            "G": "Synthesis of fatty acids from acetyl-CoA",
-            "H": "Conversion of pyruvate to lactate",
-            "I": "Conversion of phenylalanine to tyrosine",
-            "J": "Decarboxylation of amino acids to form amine neurotransmitters"
-        },
-        "answer": "F",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },
@@ -1136,25 +1060,6 @@
             "J": "Drinking green tea"
         },
         "answer": "I",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6062,
-        "question": "Which of these factors increases the risk for lung cancer?\n ",
-        "options": {
-            "A": "Lack of physical activity",
-            "B": "High fiber diet",
-            "C": "Alcohol",
-            "D": "Low protein intake",
-            "E": "High dose \u00df-carotene supplements",
-            "F": "Saturated fat",
-            "G": "Vitamin D deficiency",
-            "H": "Obesity",
-            "I": "Eating citrus fruits",
-            "J": "Drinking green tea"
-        },
-        "answer": "E",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },
@@ -1938,25 +1843,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6105,
-        "question": "A 67-year-old man with Parkinson disease is admitted to the hospital for treatment of pneumonia. The patient's daughter, who is visiting the patient, says he has had increased lethargy for the past day and decreased ambulation during the past 6 months. She also says that there are times during the day when his tremors increase in severity, although he continues to care for himself at home. Medical history is also remarkable for hypertension. Medications include hydrochlorothiazide, atenolol, levodopa, and carbidopa. He is 168 cm (5 ft 6 in) tall and weighs 78 kg (172 lb); BMI is 28 kg/m2 . Vital signs are temperature 38.9\u00b0C (102.0\u00b0F), pulse 60/min supine and 68/min standing, respirations 22/min, and blood pressure 100/60 mm Hg supine and 80/50 mm Hg standing. The patient appears ill and older than his stated age. He is fully oriented but lethargic. Auscultation of the chest discloses rhonchi in the right mid lung field. Abdominal examination discloses no abnormalities. Neurologic examination discloses masked facies, bradykinesia, and cogwheel rigidity; gait was not assessed on admission. Chest x-ray shows a right lower lobe infiltrate. ECG shows no abnormalities. Appropriate intravenous antibiotic therapy is initiated. Prior to discharge, which of the following is the most appropriate step? ",
-        "options": {
-            "A": "Place a percutaneous endoscopic gastrostomy (PEG) tube",
-            "B": "Obtain CT scan of the chest",
-            "C": "Begin corticosteroid treatment",
-            "D": "Start patient on anticoagulant therapy",
-            "E": "Administer influenza vaccine",
-            "F": "Arrange for home oxygen therapy",
-            "G": "Prescribe fludrocortisone",
-            "H": "Discontinue levodopa and carbidopa",
-            "I": "Initiate physical therapy",
-            "J": "Obtain a swallowing evaluation"
-        },
-        "answer": "J",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6106,
         "question": "A 35-year-old man comes to the office because of 1-week history of mid low back pain that radiates down his right leg. The pain began after the patient lifted a heavy box onto his truck. He rates his current pain as an 8 on a 10-point scale. He has been unable to find a comfortable position and has been sleeping in a recliner. Medical history is unremarkable and he takes no medications. He has smoked one pack of cigarettes daily for the past 25 years, and he drinks a six-pack of beer on Friday and Saturday nights. BMI is 27 kg/m2 . He appears uncomfortable and stands during the physical examination. Vital signs are normal. Straight-leg raise test is positive on the right, with loss of right ankle reflex. The remainder of the physical examination discloses no abnormalities. Which of the following is the most likely explanation for this patient\u2019s symptoms?",
         "options": {
@@ -2010,25 +1896,6 @@
             "J": "Development of natural killer cells"
         },
         "answer": "A",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6109,
-        "question": "A 30-year-old woman, gravida 2, para 0, aborta 1, at 28 weeks' gestation comes to the office for a prenatal visit. She has had one previous pregnancy resulting in a spontaneous abortion at 12 weeks' gestation. Today, her vital signs are within normal limits. Physical examination shows a uterus consistent in size with a 28-week gestation. Fetal ultrasonography shows a male fetus with no abnormalities. Her blood group is O, Rh-negative. The father's blood group is B, Rh-positive. The physician recommends administration of Rho ",
-        "options": {
-            "A": "Formation of antibodies to RhO",
-            "B": "Formation of antibodies to RhC",
-            "C": "Development of leukocytosis",
-            "D": "Development of anemia",
-            "E": "Development of polycythemia",
-            "F": "Formation of antibodies to RhD",
-            "G": "Formation of antibodies to RhB",
-            "H": "Development of natural killer cells",
-            "I": "immune globulin to the patient. This treatment is most likely to prevent which of the following in this mother?",
-            "J": "Development of lymphocytosis"
-        },
-        "answer": "E",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -2109,25 +1976,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6114,
-        "question": "A 4-year-old boy is brought to the physician because of temperatures to 39.4\u00b0C (102.9\u00b0F) for 8 days. Examination shows anterior cervical lymphadenopathy, nonexudative conjunctivitis bilaterally, a strawberry tongue, an erythematous truncal rash, and edema of the hands and feet. Which of the following is the most appropriate pharmacotherapy to prevent complications of this illness? ",
-        "options": {
-            "A": "Oral amoxicillin",
-            "B": "Intravenous corticosteroids",
-            "C": "Intravenous azithromycin",
-            "D": "Intravenous penicillin",
-            "E": "Oral ibuprofen",
-            "F": "Intravenous immune globulin",
-            "G": "Oral isoniazid",
-            "H": "Intravenous prednisone",
-            "I": "Intravenous vancomycin",
-            "J": "Oral aspirin"
-        },
-        "answer": "F",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6115,
         "question": "A 2-month-old female is brought to the office for her first routine health maintenance examination and for her immunization update. In order to determine whether or not any contraindications exist for diphtheria, tetanus, pertussis (DtaP) immunization, the parents should be questioned regarding",
         "options": {
@@ -2143,25 +1991,6 @@
             "J": null
         },
         "answer": "B",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6116,
-        "question": "A 2-month-old female is brought to the office for her first routine health maintenance examination and for her immunization update. In order to determine whether or not any contraindications exist for diphtheria, tetanus, pertussis (DtaP) immunization, the parents should be questioned regarding ",
-        "options": {
-            "A": "any chronic conditions",
-            "B": "dietary habits",
-            "C": "Apgar scores at birth",
-            "D": "allergy to eggs",
-            "E": "family history of diabetes",
-            "F": "previous seizures",
-            "G": "gestational age at birth",
-            "H": "history of heart disease",
-            "I": null,
-            "J": null
-        },
-        "answer": "F",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -2223,25 +2052,6 @@
         "src": "ori_mmlu-nutrition"
     },
     {
-        "question_id": 6120,
-        "question": "Which vitamin is a major lipid-soluble antioxidant in cell membranes?\n ",
-        "options": {
-            "A": "Vitamin B3",
-            "B": "Vitamin B1",
-            "C": "Vitamin B6",
-            "D": "Vitamin C",
-            "E": "Vitamin F",
-            "F": "Vitamin D",
-            "G": "Vitamin B12",
-            "H": "Vitamin E",
-            "I": "Vitamin K",
-            "J": "Vitamin A"
-        },
-        "answer": "H",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
         "question_id": 6121,
         "question": "It has been observed that a reduction in family size and improved sanitary condition have led to an increase in allergic conditions. The 'hygiene hypothesis' suggests that\n",
         "options": {
@@ -2257,25 +2067,6 @@
             "J": "The use of probiotics in infants will increase the development of atopic diseases"
         },
         "answer": "C",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6122,
-        "question": "It has been observed that a reduction in family size and improved sanitary condition have led to an increase in allergic conditions. The 'hygiene hypothesis' suggests that\n ",
-        "options": {
-            "A": "Using antibiotics frequently will reduce allergies",
-            "B": "The use of probiotics in infants will increase the development of atopic diseases",
-            "C": "Exposure to allergens in early childhood will increase the risk of developing allergies",
-            "D": "The frequent use of antiseptic swipes will reduce allergies",
-            "E": "Breastfeeding should be avoided in high risk infants to prevent allergies",
-            "F": "Staying in highly sanitized environments will reduce the development of atopic diseases",
-            "G": "Living in urban areas will help reduce the development of atopic diseases",
-            "H": "Particular care must be taken during breast feeding in high risk infants",
-            "I": "Living on a working farm will increase the development of atopic diseases",
-            "J": "Living on a working farm will help reducing the development of atopic diseases"
-        },
-        "answer": "J",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },
@@ -2333,25 +2124,6 @@
             "J": "Alpha limit dextrins"
         },
         "answer": "C",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6126,
-        "question": "Oral bacterial synthesise extracellular glucans (dextran and mutan) from which host dietary component?\n ",
-        "options": {
-            "A": "Starch",
-            "B": "glucose",
-            "C": "Maltose",
-            "D": "Glycogen",
-            "E": "Fructose",
-            "F": "Lactose",
-            "G": "Galactose",
-            "H": "Alpha limit dextrins",
-            "I": "Sucrose",
-            "J": "polysaccharides"
-        },
-        "answer": "I",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },
@@ -2447,25 +2219,6 @@
             "J": "Food intake measurement"
         },
         "answer": "A",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6132,
-        "question": "What is the primary method of dietary assessment used in epidemiological studies?\n ",
-        "options": {
-            "A": "Food sample collection",
-            "B": "Nutrient analysis",
-            "C": "Food frequency questionnaire",
-            "D": "Unweighed diary",
-            "E": "Food weighing scale",
-            "F": "Calorie counting",
-            "G": "Direct observation",
-            "H": "24-hour recall",
-            "I": "Food intake measurement",
-            "J": "Weighed diary"
-        },
-        "answer": "C",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },
@@ -3306,25 +3059,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6177,
-        "question": "A 20-year-old man has had frequent upper respiratory tract infections over the past 4 years. He has daily purulent sputum and has noted decreased exercise tolerance over the past 2 years. He and his wife have been unable to conceive because of his low sperm count. Scattered expiratory wheezing and rhonchi are heard throughout both lung fields. An x-ray of the chest shows hyperinflation. Spirometry shows a decreased FEV1:FVC ratio. Which of the following is most likely to confirm the diagnosis? ",
-        "options": {
-            "A": "Chest CT scan",
-            "B": "Arterial blood gas analysis",
-            "C": "Tuberculin skin test",
-            "D": "Bronchoscopy",
-            "E": "Sweat chloride test",
-            "F": "Sputum cytology",
-            "G": "Examination of sputum for eosinophils",
-            "H": "Echocardiogram",
-            "I": "Spirometry repeat test",
-            "J": "Complete blood count"
-        },
-        "answer": "E",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6178,
         "question": "A new blood test to detect prostate cancer is evaluated in 300 male volunteers. A needle biopsy of the prostate gland is done on all men with serum prostate-specific antigen concentrations greater than 5 ng/mL (N<4). One hundred men undergo biopsy procedures; 90 are found to have prostate cancer, and five are found to have chronic prostatitis. Which of the following is necessary to calculate the sensitivity of this test?",
         "options": {
@@ -3359,25 +3093,6 @@
             "J": "brain metastases"
         },
         "answer": "E",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6180,
-        "question": "A 43-year-old female presents to the office with a\u00a02-month\u00a0history of heat intolerance, weight loss, tachycardia, and diffuse goiter. Examination reveals exophthalmos, inflammation of the periorbital tissue and conjunctivae, a heart rate of 140/min, and warm, velvety skin. An MRI of the head and orbits will most likely reveal ",
-        "options": {
-            "A": "diffuse enlargement of the rectus muscles",
-            "B": "cerebral aneurysm",
-            "C": "pituitary adenoma",
-            "D": "normal brain tissue",
-            "E": "inflammation of the optic nerve",
-            "F": "calcification of the orbit",
-            "G": "atrophy of the optic nerve",
-            "H": "dilated ventricles",
-            "I": "lymphoma",
-            "J": "brain metastases"
-        },
-        "answer": "A",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -3477,25 +3192,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6186,
-        "question": "A 45-year-old man comes to the physician because of right shoulder pain that began after he chopped wood 2 days ago. Examination of the right upper extremity shows no obvious bone deformities or point tenderness. The pain is reproduced when the patient is asked to externally rotate the shoulder against resistance; there is no weakness. In addition to the teres minor, inflammation of which of the following tendons is most likely in this patient? ",
-        "options": {
-            "A": "Triceps Brachii",
-            "B": "Biceps Brachii",
-            "C": "Pectoralis",
-            "D": "Supraspinatus",
-            "E": "Coracobrachialis",
-            "F": "Brachialis",
-            "G": "Deltoid",
-            "H": "Subscapularis",
-            "I": "Infraspinatus",
-            "J": "Teres Major"
-        },
-        "answer": "I",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6187,
         "question": "A 67-year-old woman comes to the physician because of easy bruising for 4 months. She has a history of lung cancer treated with radiation therapy 6 months ago. She has a 2-year history of hypertension treated with a thiazide diuretic and an angiotensin-converting enzyme (ACE) inhibitor. Examination, including neurologic examination, shows no abnormalities except for multiple ecchymoses. Her hemoglobin concentration is 13 g/dL, leukocyte count is 5000/mm3 , and platelet count is 35,000/mm3 . A serum antiplatelet antibody assay is negative. Which of the following is the most appropriate next step in diagnosis?",
         "options": {
@@ -3530,25 +3226,6 @@
             "J": "Conduct a pelvic exam"
         },
         "answer": "H",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6189,
-        "question": "An 18-year-old primigravid woman comes for her initial prenatal visit at 16 weeks' gestation. She is not sure about the date of her last menstrual period but says that the pregnancy probably occurred immediately after she stopped taking oral contraceptives 5 months ago. Maternal serum \u03b1-fetoprotein (MSAFP) concentration is increased to 3 multiples of the median. Which of the following is the most appropriate next step in management? ",
-        "options": {
-            "A": "Immediate cesarean section",
-            "B": "Prescribe oral contraceptives",
-            "C": "Amniocentesis for measurement of \u03b1-fetoprotein concentration",
-            "D": "Administer a pregnancy test",
-            "E": "Hormone therapy to balance MSAFP levels",
-            "F": "Ultrasonography",
-            "G": "Conduct a pelvic exam",
-            "H": "Triple screening for MSAFP, serum \u03b2-hCG, and serum estriol concentrations",
-            "I": "Repeat measurement of MSAFP concentration",
-            "J": "Monitor patient without taking action"
-        },
-        "answer": "F",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -4237,25 +3914,6 @@
         "src": "ori_mmlu-anatomy"
     },
     {
-        "question_id": 6227,
-        "question": "Examination of a patient indicates that they have a medially directed strabismus (squint). This could be due to damage to the ",
-        "options": {
-            "A": "oculomotor nerve.",
-            "B": "ophthalmic trigeminal nerve.",
-            "C": "glossopharyngeal nerve.",
-            "D": "accessory nerve.",
-            "E": "trochlear nerve.",
-            "F": "abducens nerve.",
-            "G": "vestibulocochlear nerve.",
-            "H": "hypoglossal nerve.",
-            "I": "facial nerve.",
-            "J": "optic nerve."
-        },
-        "answer": "F",
-        "cot_content": "",
-        "src": "ori_mmlu-anatomy"
-    },
-    {
         "question_id": 6228,
         "question": "When an emergency opening into the airway is required, the cricothyroid membrane should be pierced immediately",
         "options": {
@@ -4332,25 +3990,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6232,
-        "question": "A 40-year-old woman comes to the physician because of a 6-month history of increased facial hair growth. Her last menstrual period was 4 months ago. She is 165 cm (5 ft 5 in) tall and weighs 70 kg (154 lb); BMI is 26 kg/m2 . Her pulse is 80/min, and blood pressure is 130/82 mm Hg. Physical examination shows temporal balding and coarse dark hair on the upper lip and chin. Pelvic examination shows clitoral enlargement. Her serum testosterone concentration is increased. Serum concentrations of androstenedione, dehydroepiandrosterone, and urinary 17-ketosteroids are within the reference ranges. Ultrasonography of the pelvis shows a 12-cm ovarian mass. Which of the following best describes this mass? ",
-        "options": {
-            "A": "Endometrioid tumor",
-            "B": "Fibroma",
-            "C": "Sertoli-Leydig tumor",
-            "D": "Mucinous cystadenoma",
-            "E": "Clear cell carcinoma",
-            "F": "Brenner tumor",
-            "G": "Ovarian carcinoid",
-            "H": "Teratoma",
-            "I": "Serous cystadenoma",
-            "J": "Granulosa tumor"
-        },
-        "answer": "C",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6233,
         "question": "A 77-year-old female presents to the office for evaluation of a syncopal event that occurred while she was walking. Cardiac examination reveals a grade 3/6\u00a0systolic murmur, heard best at the right upper sternal border. There is radiation of the murmur into the neck. The valvular abnormality that most likely caused this episode is",
         "options": {
@@ -4366,25 +4005,6 @@
             "J": "mitral stenosis"
         },
         "answer": "G",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6234,
-        "question": "A 77-year-old female presents to the office for evaluation of a syncopal event that occurred while she was walking. Cardiac examination reveals a grade 3/6\u00a0systolic murmur, heard best at the right upper sternal border. There is radiation of the murmur into the neck. The valvular abnormality that most likely caused this episode is ",
-        "options": {
-            "A": "tricuspid stenosis",
-            "B": "aortic insufficiency",
-            "C": "pulmonary stenosis",
-            "D": "tricuspid regurgitation",
-            "E": "mitral regurgitation",
-            "F": "bicuspid aortic valve",
-            "G": "mitral stenosis",
-            "H": "mitral valve prolapse",
-            "I": "aortic stenosis",
-            "J": "pulmonary regurgitation"
-        },
-        "answer": "I",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -4423,25 +4043,6 @@
             "J": "Haemophilus influenzae"
         },
         "answer": "G",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6237,
-        "question": "An epidemic involving 10\u00a0individuals of all ages occurs in a migrant worker camp. None of the patients has had any form of immunization. Most cases present with fever, chills, tachypnea, sore throat, swollen glands, and severe malaise. One patient dies from respiratory complications, and another dies from myocardial involvement. A gram-positive rod is isolated from the respiratory tracts of 7 of the patients. The most likely cause of the outbreak is ",
-        "options": {
-            "A": "Streptococcus pneumoniae",
-            "B": "Mycoplasma pneumoniae",
-            "C": "Staphylococcus aureus",
-            "D": "Bordetella pertussis",
-            "E": "Streptococcus pyogenes",
-            "F": "Mycobacterium tuberculosis",
-            "G": "Haemophilus influenzae",
-            "H": "Legionella pneumophila",
-            "I": "Corynebacterium diphtheriae",
-            "J": "Epstein-Barr virus"
-        },
-        "answer": "I",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -4503,25 +4104,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6241,
-        "question": "A 15-year-old girl is brought to the office by her mother because of abdominal pain and constipation for the past several weeks. Her mother says, \"She is getting almost all A's in school and she is on the track team.\" You ask the patient about her diet and she responds, \"I'm kind of a picky eater.\" She requests a laxative to help with her constipation. She is 158 cm (5 ft 2 in) tall and weighs 43 kg (95 lb); BMI is 18 kg/m2 . Pulse is 65/min. Specific additional history should be obtained regarding which of the following? ",
-        "options": {
-            "A": "Previous surgeries or hospitalizations",
-            "B": "Exposure to sexually transmitted diseases",
-            "C": "Menstrual history",
-            "D": "History of urinary problems",
-            "E": "Use of recreational drugs or alcohol",
-            "F": "Recent travel history",
-            "G": "History of food allergies",
-            "H": null,
-            "I": null,
-            "J": null
-        },
-        "answer": "C",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6242,
         "question": "A 31-year-old man with a 5-year history of HIV infection comes to the office because of anal pain, particularly on defecation, for the past 4 months. He says he has seen spots of blood on the toilet tissue but has not had any other noticeable bleeding. He reports no change in bowel habits and has not had recent fever, chills, or rectal drainage. He says he and his partner engage in anal-receptive intercourse. His most recent CD4+ T-lymphocyte count 2 months ago was 350/mm3 ; HIV viral load at that time was undetectable. He currently is being treated with antiretroviral therapy. He has had no opportunistic infections. Medical history is also significant for syphilis and genital herpes treated with penicillin and acyclovir, respectively. He does not smoke cigarettes or drink alcoholic beverages. Vital signs are normal. Physical examination shows small bilateral inguinal lymph nodes, but respiratory, cardiac, and abdominal examinations disclose no abnormalities. There are several tender fleshy lesions around the perianal area. Rectal examination produces tenderness, but there is no rectal discharge. Test of the stool for occult blood is trace positive. Which of the following is the most appropriate pharmacotherapy at this time?",
         "options": {
@@ -4556,25 +4138,6 @@
             "J": "use of a humidifier"
         },
         "answer": "H",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6244,
-        "question": "A 7-year-old male is brought to the office for evaluation of school problems. The mother says that the teacher has told her that the patient is inattentive, has difficulty following sequential instructions, and often seems to drift off to sleep during class. A polysomnogram reveals obstructive sleep apnea. The most appropriate management is ",
-        "options": {
-            "A": "imipramine",
-            "B": "use of a humidifier",
-            "C": "elevation of the head of the bed",
-            "D": "administration of caffeine",
-            "E": "referral to a psychiatrist",
-            "F": "speech therapy",
-            "G": "prescription of sleeping pills",
-            "H": "prescription of stimulant medication",
-            "I": "surgical evaluation",
-            "J": "heart rate and apnea monitoring"
-        },
-        "answer": "I",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -4617,25 +4180,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6247,
-        "question": "A 15-year-old girl is brought to the physician 3 months after she had a blood pressure of 150/95 mm Hg at a routine examination prior to participation in school sports. She is asymptomatic and has no history of serious illness. Twelve months ago, she was diagnosed with a urinary tract infection and treated with oral trimethoprim-sulfamethoxazole. She currently takes no medications. Subsequent blood pressure measurements on three separate occasions since the last visit have been: 155/94 mm Hg, 145/90 mm Hg, and 150/92 mm Hg. She is at the 50th percentile for height and 95th percentile for weight. Her blood pressure today is 150/90 mm Hg confirmed by a second measurement, pulse is 80/min, and respirations are 12/min. Examination shows no other abnormalities. Her hematocrit is 40%. Urinalysis is within normal limits. Cardiac and renal ultrasonography shows no abnormalities. Which of the following is the most appropriate next step in management? ",
-        "options": {
-            "A": "Initiate diuretic therapy",
-            "B": "Measurement of plasma renin activity",
-            "C": "Initiate calcium channel blocker therapy",
-            "D": "Measurement of urine corticosteroid concentrations",
-            "E": "Exercise and weight reduction program",
-            "F": "Captopril therapy",
-            "G": "Referral for psychiatric evaluation",
-            "H": "Initiate beta-blocker therapy",
-            "I": "Measurement of urine catecholamine concentrations",
-            "J": "Measurement of serum potassium levels"
-        },
-        "answer": "E",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6248,
         "question": "A 28-year-old man comes to the office because he would like to quit smoking cigarettes. He says, \"I cannot go more than a day without cigarettes because I get so anxious and irritable. I even wake up at night to smoke.\" The patient began smoking cigarettes at age 12 years; he was smoking two packs of cigarettes daily by age 17 years, and he has not curtailed his use since that time. He does not drink alcoholic beverages or use illicit drugs. Medical history is remarkable for childhood febrile seizures. He takes no medications. Vital signs are normal. The patient is interested in using a nicotine patch and bupropion therapy because he says his friend found the treatments to be helpful. In combining these two therapies, this patient is at greatest risk for which of the following?",
         "options": {
@@ -4651,25 +4195,6 @@
             "J": "Respiratory distress"
         },
         "answer": "I",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6249,
-        "question": "A 28-year-old man comes to the office because he would like to quit smoking cigarettes. He says, \"I cannot go more than a day without cigarettes because I get so anxious and irritable. I even wake up at night to smoke.\" The patient began smoking cigarettes at age 12 years; he was smoking two packs of cigarettes daily by age 17 years, and he has not curtailed his use since that time. He does not drink alcoholic beverages or use illicit drugs. Medical history is remarkable for childhood febrile seizures. He takes no medications. Vital signs are normal. The patient is interested in using a nicotine patch and bupropion therapy because he says his friend found the treatments to be helpful. In combining these two therapies, this patient is at greatest risk for which of the following? ",
-        "options": {
-            "A": "Hypoglycemia",
-            "B": "Heart arrhythmia",
-            "C": "Renal insufficiency",
-            "D": "Respiratory distress",
-            "E": "Increased anxiety",
-            "F": "Seizures",
-            "G": "Liver toxicity",
-            "H": "The patient is at no increased risk",
-            "I": "Hypertension",
-            "J": "Polyuria"
-        },
-        "answer": "F",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -4693,25 +4218,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6251,
-        "question": "A 16-year-old girl is brought to the office by her mother because she is concerned that she may have contracted meningitis from her soccer teammate, who was diagnosed with meningococcal meningitis and admitted to the hospital yesterday. The patient's soccer team traveled to a neighboring state to participate in a tournament 1 week ago and she shared a hotel room with the girl who was hospitalized. The patient feels well but is concerned she may have \"caught the same bug.\" Medical history is remarkable for asthma. Medications include inhaled albuterol. Vital signs are temperature 37.2\u00b0C (98.9\u00b0F), pulse 64/min, respirations 16/min, and blood pressure 107/58 mm Hg. Physical examination shows no abnormalities. Which of the following is the most appropriate intervention for this patient at this time? ",
-        "options": {
-            "A": "No intervention is needed at this time",
-            "B": "Prescribe amoxicillin",
-            "C": "Prescribe azithromycin",
-            "D": "Administer a tetanus shot",
-            "E": "Prescribe rifampin",
-            "F": "Administer the meningococcal vaccine",
-            "G": "Prescribe penicillin",
-            "H": "Prescribe doxycycline",
-            "I": "Administer the pneumococcal vaccine",
-            "J": "Prescribe ibuprofen"
-        },
-        "answer": "E",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6252,
         "question": "A previously healthy 15-year-old boy is brought to the emergency department in August 1 hour after the onset of headache, dizziness, nausea, and one episode of vomiting. His symptoms began during the first hour of full-contact football practice in full uniform. He reported feeling weak and faint but did not lose consciousness. He vomited once after drinking water. On arrival, he is diaphoretic. He is not oriented to person, place, or time. His temperature is 39.5\u00b0C (103.1\u00b0F), pulse is 120/min, respirations are 40/min, and blood pressure is 90/65 mm Hg. Examination, including neurologic examination, shows no other abnormalities. Which of the following is the most appropriate next step in management?",
         "options": {
@@ -4731,25 +4237,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6253,
-        "question": "A previously healthy 15-year-old boy is brought to the emergency department in August 1 hour after the onset of headache, dizziness, nausea, and one episode of vomiting. His symptoms began during the first hour of full-contact football practice in full uniform. He reported feeling weak and faint but did not lose consciousness. He vomited once after drinking water. On arrival, he is diaphoretic. He is not oriented to person, place, or time. His temperature is 39.5\u00b0C (103.1\u00b0F), pulse is 120/min, respirations are 40/min, and blood pressure is 90/65 mm Hg. Examination, including neurologic examination, shows no other abnormalities. Which of the following is the most appropriate next step in management? ",
-        "options": {
-            "A": "Administer sodium chloride tablets",
-            "B": "Immerse the patient in an ice water bath",
-            "C": "Administer a dose of ibuprofen",
-            "D": "Administer a glucose injection",
-            "E": "Apply cold compresses to the forehead",
-            "F": "Administer intravenous fluids",
-            "G": "Administer an epinephrine injection",
-            "H": "Perform a lumbar puncture",
-            "I": "Administer oxygen via a nasal cannula",
-            "J": "Obtain a CT scan of the head"
-        },
-        "answer": "B",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6254,
         "question": "A 30-year-old woman comes to the physician because of a 2-day history of abdominal pain. She has a history of recurrent upper respiratory tract infections, sinusitis, and pancreatitis. She has thick nasal secretions. She says that her sweat is salty and crystallizes on her skin. Her vital signs are within normal limits. Physical examination shows epigastric tenderness. Genetic testing for the 36 most common mutations shows a detectable mutation (G551D) in one allele of the CFTR gene. Which of the following best explains this patient's clinical phenotype?",
         "options": {
@@ -4765,25 +4252,6 @@
             "J": "The CFTR mutation is associated with her clinical phenotype but not the cause"
         },
         "answer": "G",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6255,
-        "question": "A 30-year-old woman comes to the physician because of a 2-day history of abdominal pain. She has a history of recurrent upper respiratory tract infections, sinusitis, and pancreatitis. She has thick nasal secretions. She says that her sweat is salty and crystallizes on her skin. Her vital signs are within normal limits. Physical examination shows epigastric tenderness. Genetic testing for the 36 most common mutations shows a detectable mutation (G551D) in one allele of the CFTR gene. Which of the following best explains this patient's clinical phenotype? ",
-        "options": {
-            "A": "Both CFTR alleles must be mutated to produce symptoms",
-            "B": "The CFTR mutation is associated with her clinical phenotype but not the cause",
-            "C": "The patient's CFTR mutation is unrelated to her clinical phenotype",
-            "D": "The patient's symptoms are coincidental and not related to the CFTR mutation",
-            "E": "The patient has a rare form of CFTR mutation that requires two alleles",
-            "F": "The G551D mutation in CFTR does not cause symptoms",
-            "G": "The patient's clinical phenotype is due to a mutation in a different gene",
-            "H": "The patient is a CFTR obligate carrier",
-            "I": "Only one G551D allele is needed in CFTR",
-            "J": "The second CFTR mutation was not detected by the testing obtained"
-        },
-        "answer": "J",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -4902,25 +4370,6 @@
         "src": "ori_mmlu-nutrition"
     },
     {
-        "question_id": 6262,
-        "question": "Which of the following statements is correct?\n ",
-        "options": {
-            "A": "Mycotoxins contaminate foods containing yeasts formed during storage in airtight conditions",
-            "B": "Mycotoxins contaminate foods containing bacteria formed during storage under moist conditions",
-            "C": "Mycotoxins contaminate foods containing viruses formed during storage at freezing temperatures",
-            "D": "Mycotoxins are created by chemical reactions in foods stored under high-pressure conditions",
-            "E": "Mycotoxins contaminate foods containing fungi formed during storage under dry conditions",
-            "F": "Mycotoxins are beneficial nutrients that enhance food quality during storage",
-            "G": "Mycotoxins contaminate foods containing bacteria formed during storage under dry conditions",
-            "H": "Mycotoxins are formed by plants as a defense mechanism during storage under high-light conditions",
-            "I": "Mycotoxins contaminate foods containing algae formed during storage under wet conditions",
-            "J": "Mycotoxins contaminate foods containing fungi formed during storage under moist conditions"
-        },
-        "answer": "J",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
         "question_id": 6263,
         "question": "What is the definition of overweight?\n",
         "options": {
@@ -4959,25 +4408,6 @@
         "src": "ori_mmlu-nutrition"
     },
     {
-        "question_id": 6265,
-        "question": "A blood sample is taken from a 45 year old man after he has broken his overnight fast by eating three slices of toast and a boiled egg. Which one of the following will be at a higher concentration than if the blood sample had been taken before breakfast?\n ",
-        "options": {
-            "A": "Glucose",
-            "B": "Non-esterified (free) fatty acids",
-            "C": "Cholesterol",
-            "D": "Glycogen",
-            "E": "Ketone bodies",
-            "F": "Lactate",
-            "G": "Pyruvate",
-            "H": null,
-            "I": null,
-            "J": null
-        },
-        "answer": "A",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
         "question_id": 6266,
         "question": "Which of the following is the yield of ATP from complete oxidation of glucose to carbon dioxide and water?\n",
         "options": {
@@ -4993,25 +4423,6 @@
             "J": "20"
         },
         "answer": "E",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6267,
-        "question": "Which of the following is the yield of ATP from complete oxidation of glucose to carbon dioxide and water?\n ",
-        "options": {
-            "A": "50",
-            "B": "32",
-            "C": "10",
-            "D": "15",
-            "E": "25",
-            "F": "20",
-            "G": "30",
-            "H": "40",
-            "I": "35",
-            "J": "45"
-        },
-        "answer": "B",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },
@@ -5145,25 +4556,6 @@
             "J": "Ecological study"
         },
         "answer": "I",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6275,
-        "question": "The best available evidence for an association between amount of sugars and risk of dental caries comes from which type of study design?\n ",
-        "options": {
-            "A": "Cohort",
-            "B": "Case-control study",
-            "C": "Meta-analysis",
-            "D": "Experimental study",
-            "E": "Cross sectional observational",
-            "F": "Longitudinal study",
-            "G": "Non-randomised controlled",
-            "H": "Qualitative study",
-            "I": "Randomised controlled",
-            "J": "Ecological study"
-        },
-        "answer": "A",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },
@@ -5833,25 +5225,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6312,
-        "question": "A couple comes for preconceptional genetic counseling because they both have a family history of \u03b1-thalassemia. The woman has a minimally decreased hemoglobin concentration. Genetic studies show a single gene deletion. The man has microcytic anemia and a two-gene deletion. If the two-gene deletion is in trans (one deletion on the maternal gene and one deletion on the paternal gene), which of the following percentages of their offspring will have a two-gene deletion? ",
-        "options": {
-            "A": "80%",
-            "B": "100%",
-            "C": "20%",
-            "D": "0%",
-            "E": "66%",
-            "F": "50%",
-            "G": "33%",
-            "H": "25%",
-            "I": "75%",
-            "J": "10%"
-        },
-        "answer": "F",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6313,
         "question": "A 76-year-old man comes to the office because of early awakening at night. He has no difficulty falling asleep but routinely wakes up between 2:00 and 3:00 AM. The patient is a retired postal worker, and he has always been physically active. He has diabetes mellitus controlled by diet. The patient drinks one cup of coffee in the morning with breakfast and usually walks for exercise in the morning. Before retiring at night he has one alcoholic beverage. He has no history of depression, nightmares, or snoring and he takes no over-the-counter medications. His wife of 45 years is also in good health. Vital signs are temperature 37.1\u00b0C (98.8\u00b0F), pulse 96/min and regular, respirations 18/min, and blood pressure 135/90 mm Hg. Physical examination shows a well-nourished, well-developed man. He is not obese. Examination of the head and neck is normal; there are no bruits or jugular venous distention. Chest is clear, and heart is normal with S1 and S2. Abdomen is soft and nontender with active bowel sounds and no organomegaly. Rectal examination discloses no abnormalities. Which of the following is the most appropriate management of this patient's insomnia?",
         "options": {
@@ -5867,25 +5240,6 @@
             "J": "Advise the patient to increase his intake of caffeine"
         },
         "answer": "H",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6314,
-        "question": "A 76-year-old man comes to the office because of early awakening at night. He has no difficulty falling asleep but routinely wakes up between 2:00 and 3:00 AM. The patient is a retired postal worker, and he has always been physically active. He has diabetes mellitus controlled by diet. The patient drinks one cup of coffee in the morning with breakfast and usually walks for exercise in the morning. Before retiring at night he has one alcoholic beverage. He has no history of depression, nightmares, or snoring and he takes no over-the-counter medications. His wife of 45 years is also in good health. Vital signs are temperature 37.1\u00b0C (98.8\u00b0F), pulse 96/min and regular, respirations 18/min, and blood pressure 135/90 mm Hg. Physical examination shows a well-nourished, well-developed man. He is not obese. Examination of the head and neck is normal; there are no bruits or jugular venous distention. Chest is clear, and heart is normal with S1 and S2. Abdomen is soft and nontender with active bowel sounds and no organomegaly. Rectal examination discloses no abnormalities. Which of the following is the most appropriate management of this patient's insomnia? ",
-        "options": {
-            "A": "Prescribe sleeping pills",
-            "B": "Recommend a daytime nap to compensate for lost sleep",
-            "C": "Advise the patient to read and snack in bed to relax",
-            "D": "Prescribe sertraline",
-            "E": "Advise the patient to increase his intake of caffeine",
-            "F": "Prescribe a low-carb diet",
-            "G": "Prescribe a vigorous pre-bedtime exercise regimen",
-            "H": "Recommend the patient to watch television before going to bed.",
-            "I": "Advise the patient to drink alcohol earlier in the day",
-            "J": "Advise the patient to discontinue his bedtime drink of alcohol"
-        },
-        "answer": "J",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -6019,25 +5373,6 @@
             "J": "Muscle weighs less than fat"
         },
         "answer": "G",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6322,
-        "question": "When using bioelectrical impedance for measuring body composition, why does an electrical current travel faster through muscle than it does through fat?\n ",
-        "options": {
-            "A": "Fat conducts electricity better than muscle",
-            "B": "Fat contains more electrolytes than muscle",
-            "C": "Muscle weighs more than fat",
-            "D": "Muscle is denser than fat",
-            "E": "Fat is denser than muscle",
-            "F": "Muscle contains less water than fat",
-            "G": "Fat contains less water than muscle",
-            "H": "Muscle contains more electrolytes than fat",
-            "I": "Muscle contains more water than fat",
-            "J": "Muscle weighs less than fat"
-        },
-        "answer": "I",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },
@@ -6707,25 +6042,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6358,
-        "question": "A 37-year-old woman with right lower extremity edema is evaluated because of the sudden onset of shortness of breath and pleuritic chest pain. A diagnosis of pulmonary embolism is made. Which of the following signs, if present on physical examination, would be the most specific indicator of pulmonary arterial hypertension in this patient? ",
-        "options": {
-            "A": "Wheezing or whistling sound when breathing",
-            "B": "Constant chest pain",
-            "C": "Blue lips or skin",
-            "D": "Shortness of breath after slight activity",
-            "E": "P2 louder than A2",
-            "F": "Peripheral edema",
-            "G": "Presence of an S3",
-            "H": "Increased jugular venous pressure",
-            "I": "Rapid heart rate",
-            "J": "Coughing up blood"
-        },
-        "answer": "E",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6359,
         "question": "A 75-year-old woman comes to the office because she has band-like, burning pain in her right upper abdomen extending from the epigastrium around to the midline of the back. Physical examination discloses no abdominal tenderness to palpation. Findings on ultrasonography of the gallbladder are normal. Serum amylase concentration is within the reference range. Which of the following is the most likely diagnosis?",
         "options": {
@@ -6897,25 +6213,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6369,
-        "question": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? ",
-        "options": {
-            "A": "S phase",
-            "B": "Prophase",
-            "C": "G1",
-            "D": "Metaphase",
-            "E": "Prometaphase",
-            "F": "Anaphase",
-            "G": "Telophase",
-            "H": "G0",
-            "I": "M",
-            "J": "G2"
-        },
-        "answer": "C",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6370,
         "question": "A 53-year-old man comes to the physician because of a 6-month history of intermittent blood in his stool. He has had no pain with defecation. Physical examination shows a 1-cm, visible anal mass located below the dentate line. A biopsy of the mass is scheduled. If the mass if found to be malignant, it is most appropriate to evaluate which of the following lymph nodes for possible metastasis?",
         "options": {
@@ -6954,25 +6251,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6372,
-        "question": "A 43-year-old man with a history of self-mutilation comes to the emergency department because of pain in his right thigh and shaking chills during the past 3 days. He says he intentionally burned his right thigh several times with a cigarette lighter 6 days ago. This morning he soaked his thigh in a tub of hot water and massaged it, after which a large amount of \"greenish fluid\" drained from the wound sites. The patient normally takes lithium carbonate but stopped 3 months ago after he lost his job. Medical history is otherwise unremarkable. Vital signs are temperature 39.2\u00b0C (102.5\u00b0F), pulse 170/min, respirations 18/min, and blood pressure 120/60 mm Hg. Physical examination shows an edematous right lateral thigh with multiple burn sites with a white exudative appearance. There is erythema surrounding the burn areas with red streaks extending up the thigh. Palpation of the burn sites discloses fluctuance. Results of laboratory studies show a hemoglobin concentration of 14 g/dL and a leukocyte count of 19,000/mm3 . In addition to beginning antibiotic therapy, which of the following is the most appropriate next step? ",
-        "options": {
-            "A": "Psychiatric consultation",
-            "B": "Transfer to a burn center",
-            "C": "Recommencement of lithium carbonate treatment",
-            "D": "Immediate surgical amputation",
-            "E": "Topical silver sulfadiazine",
-            "F": "Physical therapy consultation",
-            "G": "Incision and drainage",
-            "H": "Thrombolytic therapy",
-            "I": "Application of a pressure bandage",
-            "J": "Intravenous fluid resuscitation"
-        },
-        "answer": "G",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6373,
         "question": "A 38-year-old man with Down syndrome and severe mental retardation is brought to the emergency department by ambulance because of increasing lethargy for the past several hours. The patient is noncommunicative and you are unable to obtain an initial history of his present illness or a past medical history. You do not know if he takes any medications. Vital signs are temperature 38.3\u00b0C (100.9\u00b0F), pulse 90/min, respirations 19/min, and blood pressure 120/60 mm Hg. On physical examination the patient is awake but lethargic. Auscultation of the chest discloses clear lungs; cardiac examination discloses a systolic click. Neurologic examination shows decreased muscle tone. Serum electrolyte concentrations are normal. Complete blood count shows a leukocyte count of 18,000/mm3 with 23% band neutrophils. The patient's caregiver, who is also the patient's guardian, cannot be located and staff at the group home where the patient resides cannot be reached by telephone. The patient refuses lumbar puncture for examination of cerebrospinal fluid. Toxicologic screening of the urine is negative. Which of the following is the most appropriate next step?",
         "options": {
@@ -6992,25 +6270,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6374,
-        "question": "A 38-year-old man with Down syndrome and severe mental retardation is brought to the emergency department by ambulance because of increasing lethargy for the past several hours. The patient is noncommunicative and you are unable to obtain an initial history of his present illness or a past medical history. You do not know if he takes any medications. Vital signs are temperature 38.3\u00b0C (100.9\u00b0F), pulse 90/min, respirations 19/min, and blood pressure 120/60 mm Hg. On physical examination the patient is awake but lethargic. Auscultation of the chest discloses clear lungs; cardiac examination discloses a systolic click. Neurologic examination shows decreased muscle tone. Serum electrolyte concentrations are normal. Complete blood count shows a leukocyte count of 18,000/mm3 with 23% band neutrophils. The patient's caregiver, who is also the patient's guardian, cannot be located and staff at the group home where the patient resides cannot be reached by telephone. The patient refuses lumbar puncture for examination of cerebrospinal fluid. Toxicologic screening of the urine is negative. Which of the following is the most appropriate next step? ",
-        "options": {
-            "A": "Order a chest X-ray",
-            "B": "Initiate seizure precautions",
-            "C": "Obtain CT scan of the head",
-            "D": "Perform a psychiatric evaluation",
-            "E": "Provide intravenous fluids and observe",
-            "F": "Administer oral antibiotics",
-            "G": "Administer intravenous antibiotics",
-            "H": "Obtain echocardiography",
-            "I": "Await contact with the caregiver before proceeding with management",
-            "J": "Wait for the patient's consent for a lumbar puncture"
-        },
-        "answer": "G",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6375,
         "question": "A previously healthy 27-year-old nulligravid woman comes to the emergency department because of a 2-day history of moderate-to-severe pain and swelling of the left labia. She is sexually active and uses condoms inconsistently. Her temperature is 37.2\u00b0C (99\u00b0F), pulse is 92/min, respirations are 18/min, and blood pressure is 115/75 mm Hg. Pelvic examination shows a 4 x 3-cm, tender, fluctuant mass medial to the left labium majus compromising the introital opening. Which of the following is the most appropriate next step in management?",
         "options": {
@@ -7026,25 +6285,6 @@
             "J": "Surgical excision of the mass"
         },
         "answer": "B",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6376,
-        "question": "A previously healthy 27-year-old nulligravid woman comes to the emergency department because of a 2-day history of moderate-to-severe pain and swelling of the left labia. She is sexually active and uses condoms inconsistently. Her temperature is 37.2\u00b0C (99\u00b0F), pulse is 92/min, respirations are 18/min, and blood pressure is 115/75 mm Hg. Pelvic examination shows a 4 x 3-cm, tender, fluctuant mass medial to the left labium majus compromising the introital opening. Which of the following is the most appropriate next step in management? ",
-        "options": {
-            "A": "Administration of intravenous ceftriaxone",
-            "B": "Observation and re-evaluation in 24 hours",
-            "C": "Initiation of antiviral therapy",
-            "D": "Ultrasound-guided needle aspiration of the mass",
-            "E": "Incision and drainage",
-            "F": "Administration of oral antibiotics",
-            "G": "Administration of intravenous vancomycin",
-            "H": "Administration of intravenous penicillin G",
-            "I": "Surgical excision of the mass",
-            "J": "Administration of intravenous metronidazole"
-        },
-        "answer": "E",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -7125,25 +6365,6 @@
         "src": "ori_mmlu-nutrition"
     },
     {
-        "question_id": 6381,
-        "question": "Which vitamin is required for calcium absorption from the small intestine?\n ",
-        "options": {
-            "A": "Vitamin A",
-            "B": "Vitamin C",
-            "C": "Vitamin B1",
-            "D": "Vitamin K",
-            "E": "Vitamin B2",
-            "F": "Vitamin D",
-            "G": "Vitamin E",
-            "H": "Vitamin B6",
-            "I": "Vitamin B12",
-            "J": "Vitamin F"
-        },
-        "answer": "F",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
         "question_id": 6382,
         "question": "In adolescence:\n",
         "options": {
@@ -7220,25 +6441,6 @@
         "src": "ori_mmlu-nutrition"
     },
     {
-        "question_id": 6386,
-        "question": "Which of the following statements about proteolysis is correct?\n ",
-        "options": {
-            "A": "Ubiquitin is only attached to proteins that are to be synthesized, not catabolised.",
-            "B": "Proteolysis is the process of protein synthesis, not breakdown.",
-            "C": "Proteolysis only occurs in animal cells.",
-            "D": "All proteins that are to be catabolised are tagged with the peptide ubiquitin.",
-            "E": "Lysosomal enzymes provide the only mechanism for tissue protein catabolism.",
-            "F": "Proteolysis can only occur in the presence of light.",
-            "G": "Proteolysis does not involve enzymatic processes.",
-            "H": "The rate of tissue protein catabolism is more or less constant throughout the day.",
-            "I": "All tissue proteins undergo catabolism at more or less the same rate.",
-            "J": "All proteins are catabolised at the exact same time."
-        },
-        "answer": "H",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
         "question_id": 6387,
         "question": "The daily amount of protein oxidized in the body of a person spending 24 hours in a respiratory chamber can be determined from his/her:\n",
         "options": {
@@ -7273,25 +6475,6 @@
             "J": "Folic acid"
         },
         "answer": "A",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6389,
-        "question": "A deficiency of which vitamin has been associated with enamel defects and increased risk of dental caries?\n ",
-        "options": {
-            "A": "Vitamin E",
-            "B": "Vitamin C",
-            "C": "Niacin",
-            "D": "Riboflavin",
-            "E": "Vitamin A",
-            "F": "Biotin",
-            "G": "Vitamin B12",
-            "H": "Vitamin K",
-            "I": "Folic acid",
-            "J": "Vitamin D"
-        },
-        "answer": "J",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },
@@ -8132,25 +7315,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6434,
-        "question": "A 55-year-old male presents to the emergency department with a\u00a02-day\u00a0history of severe epigastric pain and vomiting. Past medical history is negative for any similar episodes. He does not take any medications. He smokes cigarettes, has a 40\u00a0pack-year history, and consumes more than 8\u00a0cans of beer per day. Abdominal examination reveals epigastric tenderness. Laboratory studies reveal a serum amylase level of 467\u00a0U/L (reference range: 28-100\u00a0U/L) and a\u00a0\u03b3-glutamyltransferase\u00a0level of 212\u00a0U/L (reference range: <\u00a055\u00a0U/L). Referred pain in this patient is transmitted to the spinal cord by which of the following nerves? ",
-        "options": {
-            "A": "posterior rami of L1-L5",
-            "B": "anterior rami of T6-T10",
-            "C": "anterior rami of C6-C10",
-            "D": "posterior rami of T11-T12",
-            "E": "anterior rami of L1-L5",
-            "F": "anterior rami of C1-C5",
-            "G": "anterior rami of T1-T5",
-            "H": "anterior rami of T11-T12",
-            "I": "posterior rami of T1-T5",
-            "J": "posterior rami of T6-T10"
-        },
-        "answer": "B",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6435,
         "question": "A sexually active 20-year-old woman has had fever, chills, malaise, and pain of the vulva for 2 days. Examination shows a vulvar pustule that has ulcerated and formed multiple satellite lesions. Nodes are palpated in the inguinal and femoral areas. A smear of fluid from the lesions establishes the diagnosis. Which of the following is the most likely causal organism?",
         "options": {
@@ -8166,25 +7330,6 @@
             "J": "Treponema pallidum"
         },
         "answer": "G",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6436,
-        "question": "A sexually active 20-year-old woman has had fever, chills, malaise, and pain of the vulva for 2 days. Examination shows a vulvar pustule that has ulcerated and formed multiple satellite lesions. Nodes are palpated in the inguinal and femoral areas. A smear of fluid from the lesions establishes the diagnosis. Which of the following is the most likely causal organism? ",
-        "options": {
-            "A": "Haemophilus ducreyi",
-            "B": "Herpes simplex virus",
-            "C": "Chlamydia trachomatis",
-            "D": "Trichomonas vaginalis",
-            "E": "Human papillomavirus",
-            "F": "Streptococcus pyogenes (group A)",
-            "G": "Mycoplasma genitalium",
-            "H": "Candida albicans",
-            "I": "Neisseria gonorrhoeae",
-            "J": "Treponema pallidum"
-        },
-        "answer": "A",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -8246,25 +7391,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6440,
-        "question": "A 27-year-old woman comes to the physician because of a 3-year history of chronic diarrhea and intermittent, crampy, lower abdominal pain. The pain is usually relieved with defecation and does not occur at night or interfere with sleep. She says she is frustrated by her symptoms and has stopped traveling because of her frequent, urgent need to use the bathroom. She has no history of serious illness and takes no medications. Her temperature is 37\u00b0C (98.6\u00b0F), pulse is 70/min, respirations are 14/min, and blood pressure is 120/80 mm Hg. The lower abdomen is mildly tender to palpation; there is no rebound tenderness or guarding. The remainder of the examination shows no abnormalities. Results of laboratory studies are within the reference ranges. Test of the stool for occult blood is negative. Antigliadin antibodies are not present. Which of the following is the most appropriate pharmacotherapy? ",
-        "options": {
-            "A": "Sertraline",
-            "B": "Nefazodone",
-            "C": "Phenelzine",
-            "D": "Trazodone",
-            "E": "Nortriptyline",
-            "F": "Paroxetine",
-            "G": "Fluoxetine",
-            "H": "Lorazepam",
-            "I": "Venlafaxine",
-            "J": "Zolpidem"
-        },
-        "answer": "E",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6441,
         "question": "A 15-year-old male presents to the office with the complaint of painless swelling in the left testicle that has varied in size over the past several months. There is no history of trauma. The lesion transilluminates well, and no inguinal nodes are palpable. Findings from a testicular scan are normal. The most appropriate management includes",
         "options": {
@@ -8280,25 +7406,6 @@
             "J": "oral medication"
         },
         "answer": "I",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6442,
-        "question": "A 15-year-old male presents to the office with the complaint of painless swelling in the left testicle that has varied in size over the past several months. There is no history of trauma. The lesion transilluminates well, and no inguinal nodes are palpable. Findings from a testicular scan are normal. The most appropriate management includes ",
-        "options": {
-            "A": "injection with a sclerosing agent",
-            "B": "ultrasonic therapy",
-            "C": "oral medication",
-            "D": "needle biopsy",
-            "E": "cryotherapy",
-            "F": "surgical repair",
-            "G": "radiation therapy",
-            "H": "laser therapy",
-            "I": "chemotherapy",
-            "J": "needle aspiration"
-        },
-        "answer": "F",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -8341,25 +7448,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6445,
-        "question": "A 44-year-old female presents to the office for evaluation of a lump on her neck that she noted 1\u00a0week ago. She denies any tenderness, fever, weight loss, or fatigue. Physical examination reveals a\u00a02-cm\u00a0freely movable mass in the lower left lobe of the thyroid. In addition to thyroid-stimulating hormone and free thyroxine levels, the most appropriate initial method to investigate this lesion is ",
-        "options": {
-            "A": "Computed tomography (CT) scan",
-            "B": "fine-needle aspiration",
-            "C": "Magnetic resonance imaging (MRI)",
-            "D": "a nuclear thyroid scan",
-            "E": "Thyroid biopsy",
-            "F": "Endoscopic examination of the throat",
-            "G": "an iodine131\u00a0scan",
-            "H": "Positron emission tomography (PET) scan",
-            "I": "ultrasonography of the thyroid gland",
-            "J": "Lymph node biopsy"
-        },
-        "answer": "I",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6446,
         "question": "A 19-year-old woman comes to the emergency department because, she says, \"I'm burning up.\" Medical history is significant for intravenous drug use. Physical examination discloses a systolic heart murmur over the precordium. An expected physical finding will be which of the following?",
         "options": {
@@ -8375,25 +7463,6 @@
             "J": "Decreased intensity of S1"
         },
         "answer": "H",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6447,
-        "question": "A 19-year-old woman comes to the emergency department because, she says, \"I'm burning up.\" Medical history is significant for intravenous drug use. Physical examination discloses a systolic heart murmur over the precordium. An expected physical finding will be which of the following? ",
-        "options": {
-            "A": "Increased intensity of the murmur with forced expiration",
-            "B": "Decreased intensity of the murmur with forced expiration",
-            "C": "No change in the intensity of the murmur with breathing changes",
-            "D": "Negative Kussmaul sign (no rise in jugular venous pulse with inspiration)",
-            "E": "Increased intensity of the murmur with deep inspiration",
-            "F": "Decreased intensity of S1",
-            "G": "Positive Kussmaul sign (rise in jugular venous pulse with inspiration)",
-            "H": "Increased intensity of S1",
-            "I": "Positive JVP (rise in jugular venous pulse) with expiration",
-            "J": "Decreased intensity of the murmur with deep inspiration"
-        },
-        "answer": "E",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -8417,25 +7486,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6449,
-        "question": "A 25-year-old man is brought to the emergency department after being discovered semiconscious and incoherent at home. On arrival, he is stuporous. His blood pressure is 105/70 mm Hg, pulse is 80/min, and respirations are 12/min. Examination shows cool, damp skin. The pupils are pinpoint and react sluggishly to light. Which of the following is the most likely substance taken? ",
-        "options": {
-            "A": "Methamphetamine",
-            "B": "Barbiturates",
-            "C": "MDMA (Ecstasy)",
-            "D": "Benzodiazepines",
-            "E": "LSD",
-            "F": "Cocaine",
-            "G": "Heroin",
-            "H": "Amphetamines",
-            "I": "Alcohol",
-            "J": null
-        },
-        "answer": "G",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6450,
         "question": "A 63-year-old woman comes to the physician 1 day after the sudden onset of pain and swelling of her right knee. She has had no injury. Her medications include occasional ibuprofen for mild osteoarthritis of both knees. Her temperature is 37\u00b0C (98.6\u00b0F), pulse is 97/min, respirations are 19/min, and blood pressure is 129/79 mm Hg. Examination of the right knee shows warmth, erythema, and effusion. Exquisite tenderness is produced with minimal range-of-motion testing. Examination of synovial fluid obtained via joint aspiration shows that it is clear, with positively birefringent rhomboids observed under polarized light microscopy. Deposition of which of the following substances is the most likely cause of these findings?",
         "options": {
@@ -8451,25 +7501,6 @@
             "J": "Calcium sulfate"
         },
         "answer": "E",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6451,
-        "question": "A 63-year-old woman comes to the physician 1 day after the sudden onset of pain and swelling of her right knee. She has had no injury. Her medications include occasional ibuprofen for mild osteoarthritis of both knees. Her temperature is 37\u00b0C (98.6\u00b0F), pulse is 97/min, respirations are 19/min, and blood pressure is 129/79 mm Hg. Examination of the right knee shows warmth, erythema, and effusion. Exquisite tenderness is produced with minimal range-of-motion testing. Examination of synovial fluid obtained via joint aspiration shows that it is clear, with positively birefringent rhomboids observed under polarized light microscopy. Deposition of which of the following substances is the most likely cause of these findings? ",
-        "options": {
-            "A": "Ammonium urate",
-            "B": "Magnesium pyrophosphate",
-            "C": "Aluminum urate",
-            "D": "Potassium oxalate",
-            "E": "Calcium oxalate",
-            "F": "Calcium sulfate",
-            "G": "Sodium pyrophosphate",
-            "H": "Calcium urate",
-            "I": "Sodium urate",
-            "J": "Calcium pyrophosphate"
-        },
-        "answer": "J",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -9272,25 +8303,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6494,
-        "question": "A 35-year-old man comes to the physician because of pain and swelling of his right arm where he scraped it on a tree branch 2 days ago. His temperature is 38.3\u00b0C (101\u00b0F). Examination of the right forearm shows edema around a fluctuant erythematous lesion at the site of trauma. The area is extremely tender to palpation. Which of the following is most likely the primary mechanism of the development of edema in this patient? ",
-        "options": {
-            "A": "Disruption of vascular basement membranes",
-            "B": "Separation of endothelial junctions",
-            "C": "Release of thromboxane",
-            "D": "Increased hydrostatic pressure",
-            "E": "Reduced lymphatic drainage",
-            "F": "Reduced capillary hydrostatic pressure",
-            "G": "Decreased plasma protein concentration",
-            "H": "Increased capillary permeability due to inflammation",
-            "I": "Release of histamine",
-            "J": "High blood pressure"
-        },
-        "answer": "H",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6495,
         "question": "A 42-year-old man comes to the physician for a follow-up examination. Four months ago, he underwent repair of a Dupuytren contracture. Physical examination shows decreased range of motion in the affected hand. The patient is upset that his hand has not fully healed, and he files a malpractice suit against the physician. Which of the following is the most likely precipitating factor in this patient's decision to file a malpractice suit?",
         "options": {
@@ -9344,25 +8356,6 @@
             "J": "Sublimation"
         },
         "answer": "H",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6498,
-        "question": "A 55-year-old man who is a business executive is admitted to the hospital for evaluation of abdominal pain. He is polite to the physician but berates the nurses and other staff. The patient's wife and two of his three adult children arrive for a visit. The patient says with disgust that the missing child is and always has been worthless. Which of the following is the most likely explanation for this patient's behavior? ",
-        "options": {
-            "A": "Splitting",
-            "B": "Regression",
-            "C": "Projective identification",
-            "D": "Reaction formation",
-            "E": "Sublimation",
-            "F": "Rationalization",
-            "G": "Displacement",
-            "H": "Denial",
-            "I": "Intellectualization",
-            "J": "Projection"
-        },
-        "answer": "A",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -9424,25 +8417,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6502,
-        "question": "A 37-year-old man with type 1 diabetes mellitus is admitted to the hospital because of inadequate control of his glucose concentrations for the past 2 months. Despite his poor control, he demands that he be discharged. He reports that he has had a 3-month history of fatigue, irritability, and feelings of hopelessness. He says that he has been noncompliant with his diabetic regimen, adding, \"Sometimes I forget.\" He has been avoiding his family and friends because he is not in the mood to see them but admits that he is lonely. He did not get out of bed for 2 days, which prompted his wife to call an ambulance and have him admitted to the hospital. Prior to admission to the hospital, his only medication was insulin, although he often missed doses. He does not drink alcohol. He is 168 cm (5 ft 6 in) tall and weighs 100 kg (220 lb); BMI is 36 kg/m2 . His temperature is 37\u00b0C (98.6\u00b0F), pulse is 68/min, respirations are 18/min, and blood pressure is 150/85 mm Hg. Physical examination shows no abnormalities. On mental status examination, he is tired and has a restricted affect. There is no evidence of suicidal ideation. Cognition is intact. His fasting serum glucose concentration is 120 mg/dL. Which of the following is the most appropriate next step in management? ",
-        "options": {
-            "A": "Insist on hospitalization against the patient's wishes",
-            "B": "Initiate insulin therapy immediately",
-            "C": "Begin a psychotherapy session",
-            "D": "Seek a court order to appoint a legal guardian",
-            "E": "Schedule neuropsychological testing",
-            "F": "Start a diet and exercise regimen",
-            "G": "Prescribe medication for depression",
-            "H": "Conduct a full body physical examination",
-            "I": "Adhere to the patient's wishes on the condition that he agree to home nursing care",
-            "J": "Adhere to the patient's wishes and discuss home-care options"
-        },
-        "answer": "G",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6503,
         "question": "A 35-year-old female develops nausea and vomiting after she underwent a cholecystectomy for protracted ileus. Her body mass index was 23\u00a0kg/m2\u00a0before surgery, and, except for the cholecystitis, she was in good health. The patient remains unable to eat 6\u00a0days after surgery. Which of the following forms of nutritional support is most appropriate for this patient?",
         "options": {
@@ -9458,25 +8432,6 @@
             "J": "intravenous dextrose solution"
         },
         "answer": "C",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6504,
-        "question": "A 35-year-old female develops nausea and vomiting after she underwent a cholecystectomy for protracted ileus. Her body mass index was 23\u00a0kg/m2\u00a0before surgery, and, except for the cholecystitis, she was in good health. The patient remains unable to eat 6\u00a0days after surgery. Which of the following forms of nutritional support is most appropriate for this patient? ",
-        "options": {
-            "A": "feeding through a gastrostomy tube",
-            "B": "central hyperalimentation",
-            "C": "oral fat-free modular diet",
-            "D": "intravenous dextrose solution",
-            "E": "feeding through a nasogastric feeding tube",
-            "F": "oral protein-rich diet",
-            "G": "oral carbohydrate-rich diet",
-            "H": "intravenous saline solution",
-            "I": "feeding through a jejunostomy tube",
-            "J": "peripheral hyperalimentation"
-        },
-        "answer": "I",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -9538,25 +8493,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6508,
-        "question": "A 35-year-old male presents to the office for the result of an HIV test, and he is informed that the result is positive. The patient resists disclosure to his wife because he has not told her about his extramarital sexual partners. The physician informs the patient that his wife's right to know is paramount because she could also be HIV positive. Which of the following relationships best describes the rationale for the physician's recommendation that the patient inform his wife of his condition rather than withhold this information? ",
-        "options": {
-            "A": "beneficence is equal to justice",
-            "B": "autonomy overrides justice",
-            "C": "autonomy is equal to nonmaleficence",
-            "D": "autonomy overrides beneficence",
-            "E": "justice overrides beneficence",
-            "F": "beneficence overrides justice",
-            "G": "justice overrides autonomy",
-            "H": "beneficence overrides autonomy",
-            "I": "nonmaleficence overrides autonomy",
-            "J": "nonmaleficence overrides beneficence"
-        },
-        "answer": "I",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6509,
         "question": "Which of the following is not a function of vitamin D?\n",
         "options": {
@@ -9591,25 +8527,6 @@
             "J": "2 hour post prandial glucose \u2265 160 mg/dl"
         },
         "answer": "C",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6511,
-        "question": "Which of the following confirmed values meet the diagnostic threshold for diabetes?\n ",
-        "options": {
-            "A": "2 hour post prandial glucose \u2265 to 126 mg/dl",
-            "B": "random glucose > 120 mg/dl",
-            "C": "2 hour post prandial glucose \u2265 160 mg/dl",
-            "D": "fasting blood glucose ? 120 mg/dl",
-            "E": "random glucose > 180 mg/dl",
-            "F": "random glucose > 160 mg/dl",
-            "G": "fasting blood glucose ? 140 mg/dl",
-            "H": "2 hour post prandial glucose \u2265 140 mg/dl",
-            "I": "fasting blood glucose \u2265 126 mg/dl",
-            "J": "fasting blood glucose \u2265 160 mg/dl"
-        },
-        "answer": "I",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },
@@ -10222,25 +9139,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6545,
-        "question": "A 25-year-old man comes to the emergency department because he developed chest pain and shortness of breath 1 hour ago, shortly after snorting cocaine for the first time. He rates the chest pain as a 7 on a 10-point scale and notes that the pain is radiating down his left arm. Medical history is unremarkable and the patient takes no medications or any other illicit drugs. He is 178 cm (5 ft 10 in) tall and weighs 70 kg (154 lb); BMI is 22 kg/m2 . The patient is diaphoretic. Vital signs are temperature 37.5\u00b0C (99.5\u00b0F), pulse 110/min, respirations 16/min, and blood pressure 200/100 mm Hg. Pulse oximetry on room air shows an oxygen saturation of 95%. Pupils are equal, round, and reactive to light and accommodation. Lungs are clear to auscultation and percussion. Auscultation of the heart discloses an audible S1 and S2. There is no edema, cyanosis, or clubbing of the digits. The patient is fully oriented. He is treated with supplemental oxygen, a 325-mg aspirin tablet, and intravenous nitroglycerin and lorazepam. Despite therapy, he continues to have chest pain and shortness of breath. ECG shows sinus tachycardia with no ST-segment or T-wave abnormalities. Which of the following is the most appropriate additional pharmacotherapy to initiate at this time? ",
-        "options": {
-            "A": "Alteplase",
-            "B": "Phentolamine",
-            "C": "Verapamil",
-            "D": "Furosemide",
-            "E": "Atorvastatin",
-            "F": "Carvedilol",
-            "G": "Nitroprusside",
-            "H": "Lisinopril",
-            "I": "Metoprolol",
-            "J": "Warfarin"
-        },
-        "answer": "B",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6546,
         "question": "A 52-year-old man is admitted to the hospital because of severe dyspnea and cough productive of tenacious, brownishyellow sputum for the past 3 weeks. He has a 15-year career history of sandblasting old buildings. He has smoked two packs of cigarettes daily for the past 30 years. The patient is 168 cm (5 ft 6 in) tall and weighs 59 kg (130 lb); BMI is 21 kg/m2 . Vital signs are temperature 36.8\u00b0C (98.2\u00b0F), pulse 94/min, and blood pressure 150/92 mm Hg. Pulse oximetry on room air shows an oxygen saturation of 70%. On physical examination he is in moderately severe distress with pursed lips and cyanotic nail beds. Chest has an increased anteroposterior diameter. Auscultation of the chest discloses scattered wheezes and rhonchi over all lung fields. Cardiac examination discloses muffled heart sounds and an S4. Fingers are clubbed. Chest x-ray shows hyperinflated lungs, flattened diaphragm, large, irregular opacities in the upper lobes, and eggshell calcifications of the hilar lymph nodes. In addition to antibiotic therapy, which of the following is the most appropriate intervention?",
         "options": {
@@ -10298,25 +9196,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6549,
-        "question": "A healthy 4-year-old girl is brought for a well-child examination. A grade 2/6 systolic ejection murmur is heard along the upper left sternal border. S2 is widely split and does not vary with respiration. A soft mid-diastolic murmur is heard along the lower left sternal border. Examination shows no other abnormalities. Which of the following is the most likely diagnosis? ",
-        "options": {
-            "A": "Transposition of the great arteries",
-            "B": "Tricuspid atresia",
-            "C": "Ventricular septal defect",
-            "D": "Pulmonary stenosis",
-            "E": "Mitral regurgitation",
-            "F": "Mitral valve prolapse",
-            "G": "Coarctation of the aorta",
-            "H": "Atrial septal defect",
-            "I": "Aortic stenosis",
-            "J": "Tetralogy of Fallot"
-        },
-        "answer": "H",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6550,
         "question": "A 49-year-old man, who is recovering in the hospital 2 days after uncomplicated left femoral-popliteal bypass grafting for claudication, has now developed increasing pain in his left foot. Until now, the patient's postoperative course had been unremarkable and he has been treated with low-dose morphine for pain control. Medical history is remarkable for type 2 diabetes mellitus controlled with metformin and diet. Vital signs now are temperature 36.8\u00b0C (98.2\u00b0F), pulse 80/min and regular, respirations 20/min, and blood pressure 150/92 mm Hg. The surgical incision appears clean and well approximated without abnormal erythema or swelling. The left lower extremity and foot appear pale. Palpation of the left lower extremity discloses a strong femoral pulse, a weak popliteal pulse, and a cool, pulseless foot. Which of the following is the most appropriate management?",
         "options": {
@@ -10332,25 +9211,6 @@
             "J": "Pain management and observation"
         },
         "answer": "C",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6551,
-        "question": "A 49-year-old man, who is recovering in the hospital 2 days after uncomplicated left femoral-popliteal bypass grafting for claudication, has now developed increasing pain in his left foot. Until now, the patient's postoperative course had been unremarkable and he has been treated with low-dose morphine for pain control. Medical history is remarkable for type 2 diabetes mellitus controlled with metformin and diet. Vital signs now are temperature 36.8\u00b0C (98.2\u00b0F), pulse 80/min and regular, respirations 20/min, and blood pressure 150/92 mm Hg. The surgical incision appears clean and well approximated without abnormal erythema or swelling. The left lower extremity and foot appear pale. Palpation of the left lower extremity discloses a strong femoral pulse, a weak popliteal pulse, and a cool, pulseless foot. Which of the following is the most appropriate management? ",
-        "options": {
-            "A": "Initiate antibiotic therapy",
-            "B": "Computed Tomography (CT) of the lower extremity",
-            "C": "Intra-arterial tissue plasminogen activator (tPA) therapy",
-            "D": "Bedside compartment pressure measurements",
-            "E": "Magnetic Resonance Imaging (MRI) of the left lower extremity",
-            "F": "Doppler ultrasonography of the left lower extremity",
-            "G": "Immediate surgical exploration",
-            "H": "Pain management and observation",
-            "I": "Intraoperative angiography",
-            "J": "Intravenous heparin therapy"
-        },
-        "answer": "G",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -10393,25 +9253,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6554,
-        "question": "A 14-year-old girl is brought to the physician after her mother learned that she began having sexual intercourse with various partners 1 month ago. She does not use condoms or other contraception. The mother is concerned about her behavior. The patient's parents separated 3 months ago. She had been an honor student and excelled in sports and leadership positions at school before the separation. Since the separation, however, she has become sullen, defiant, and rebellious. She has begun smoking cigarettes, disobeying her curfew, and being truant from school. This patient is most likely using which of the following defense mechanisms? ",
-        "options": {
-            "A": "Denial",
-            "B": "Repression",
-            "C": "Projection",
-            "D": "Regression",
-            "E": "Reaction formation",
-            "F": "Sublimation",
-            "G": "Acting out",
-            "H": "Intellectualization",
-            "I": "Displacement",
-            "J": "Rationalization"
-        },
-        "answer": "G",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6555,
         "question": "A physician is conducting a retrospective review of a trial involving the use of Drug X in patients with a specific disease. It is known that Drug X is associated with an increased probability of cancer in patients who use the drug. A total of 600 individuals with a specific disease were included in the trial. Of the participants, 200 individuals received Drug X and 400 individuals did not receive it. One hundred individuals who received Drug X died of a particular type of cancer and 100 individuals who did not receive the drug died of the same type of cancer. Based on these data, which of the following is the relative risk of death from this type of cancer in individuals who take Drug X as compared with individuals who do not take Drug X?",
         "options": {
@@ -10427,25 +9268,6 @@
             "J": "Individuals who take Drug X have zero risk of dying from this type of cancer"
         },
         "answer": "A",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6556,
-        "question": "A physician is conducting a retrospective review of a trial involving the use of Drug X in patients with a specific disease. It is known that Drug X is associated with an increased probability of cancer in patients who use the drug. A total of 600 individuals with a specific disease were included in the trial. Of the participants, 200 individuals received Drug X and 400 individuals did not receive it. One hundred individuals who received Drug X died of a particular type of cancer and 100 individuals who did not receive the drug died of the same type of cancer. Based on these data, which of the following is the relative risk of death from this type of cancer in individuals who take Drug X as compared with individuals who do not take Drug X? ",
-        "options": {
-            "A": "Individuals who take Drug X have zero risk of dying from this type of cancer",
-            "B": "Individuals who take Drug X have four times the risk of dying from this type of cancer",
-            "C": "Individuals who take Drug X have half the risk of dying from this type of cancer",
-            "D": "Individuals who take Drug X have an equal risk of dying from this type of cancer",
-            "E": "Individuals who take Drug X have six times the risk of dying from this type of cancer",
-            "F": "Individuals who take Drug X have three times the risk of dying from this type of cancer",
-            "G": "Individuals who do not take Drug X have three times the risk of dying from this type of cancer",
-            "H": "Individuals who do not take Drug X have two times the risk of dying from this type of cancer",
-            "I": "Individuals who take Drug X have two times the risk of dying from this type of cancer",
-            "J": "Individuals who take Drug X have five times the risk of dying from this type of cancer"
-        },
-        "answer": "I",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -10469,25 +9291,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6558,
-        "question": "Five years after being shot in the right thigh, a 21-year-old man comes to the emergency department because of a buzzing sensation adjacent to the scar. At the time of the initial wound, he was discharged after 6 hours of observation with no fractures or soft-tissue swelling. A loud murmur is heard on auscultation; there is a thrill. He has dilated varicose veins with incompetent valves in the lower leg. Which of the following is the most likely diagnosis? ",
-        "options": {
-            "A": "Arterial spasm",
-            "B": "Arteriovenous fistula",
-            "C": "Lymphedema",
-            "D": "Occlusion of the superficial femoral artery",
-            "E": "Superficial venous thrombosis",
-            "F": "Pulmonary embolism",
-            "G": "Venous ulcer",
-            "H": "Peripheral artery disease",
-            "I": "Chronic venous insufficiency",
-            "J": "Deep venous thrombosis"
-        },
-        "answer": "B",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6559,
         "question": "A previously healthy 14-year-old girl is brought to the physician because of a 2-day history of fever and pain and swelling of the right knee. She remembers injuring the knee while playing soccer last week, but she was able to finish the game. She has no history of rash or joint pain. Her sister has inflammatory bowel disease. The patient's temperature is 39\u00b0C (102.2\u00b0F), blood pressure is 110/80 mm Hg, pulse is 95/min, and respirations are 20/min. Examination of the right knee shows swelling, tenderness, warmth, and erythema; range of motion is limited. Which of the following is the most appropriate next step in management?",
         "options": {
@@ -10503,25 +9306,6 @@
             "J": "Arthrocentesis"
         },
         "answer": "J",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6560,
-        "question": "A previously healthy 14-year-old girl is brought to the physician because of a 2-day history of fever and pain and swelling of the right knee. She remembers injuring the knee while playing soccer last week, but she was able to finish the game. She has no history of rash or joint pain. Her sister has inflammatory bowel disease. The patient's temperature is 39\u00b0C (102.2\u00b0F), blood pressure is 110/80 mm Hg, pulse is 95/min, and respirations are 20/min. Examination of the right knee shows swelling, tenderness, warmth, and erythema; range of motion is limited. Which of the following is the most appropriate next step in management? ",
-        "options": {
-            "A": "Arthrocentesis",
-            "B": "Non-steroidal anti-inflammatory drug therapy",
-            "C": "Application of a knee brace",
-            "D": "X-ray of the right knee",
-            "E": "Physiotherapy",
-            "F": "MRI of the right knee",
-            "G": "Antibiotic therapy",
-            "H": "Surgical intervention",
-            "I": "Corticosteroid injection",
-            "J": "Nuclear scan of the right knee"
-        },
-        "answer": "A",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -10583,25 +9367,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6564,
-        "question": "After being severely beaten and sustaining a gunshot wound to the abdomen, a 42-year-old woman undergoes resection of a perforated small bowel. During the operation, plastic reconstruction of facial fractures, and open reduction and internal fixation of the left femur are also done. Thirty-six hours postoperatively, she is awake but not completely alert. She is receiving intravenous morphine via a patient-controlled pump. She says that she needs the morphine to treat her pain, but she is worried that she is becoming addicted. She has no history of substance use disorder. She drinks one to two glasses of wine weekly. Which of the following initial actions by the physician is most appropriate? ",
-        "options": {
-            "A": "Encourage the patient to endure the pain without medication to prevent addiction",
-            "B": "Reassure the patient that her chance of becoming addicted to narcotics is minuscule",
-            "C": "Administer methadone as an alternative to morphine",
-            "D": "Increase the dose of morphine to relieve her anxiety",
-            "E": "Suggest biofeedback therapy to control pain",
-            "F": "Switch the patient to oral acetaminophen as soon as she can take medication orally",
-            "G": "Maintain the morphine, but periodically administer intravenous naloxone",
-            "H": "Recommend a consultation with a psychiatrist to address her fears of addiction",
-            "I": "Switch the patient to intramuscular lorazepam",
-            "J": "Advise her to drink more wine to help with the pain"
-        },
-        "answer": "B",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6565,
         "question": "In which one of the following circumstances will the prevalence of a disease in the population increase, all else being constant?\n",
         "options": {
@@ -10617,25 +9382,6 @@
             "J": "If the population's overall health improves."
         },
         "answer": "D",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6566,
-        "question": "In which one of the following circumstances will the prevalence of a disease in the population increase, all else being constant?\n ",
-        "options": {
-            "A": "If the incidence rate of the disease falls.",
-            "B": "If effective treatment for the disease becomes widely available.",
-            "C": "If vaccination against the disease becomes more common.",
-            "D": "If the disease mutates to a less harmful form.",
-            "E": "If the population's overall health improves.",
-            "F": "If the disease becomes less contagious.",
-            "G": "If the disease's incubation period decreases.",
-            "H": "If the population in which the disease is measured increases.",
-            "I": "If recovery of the disease is faster.",
-            "J": "If survival time with the disease increases."
-        },
-        "answer": "J",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },
@@ -10792,25 +9538,6 @@
         "src": "ori_mmlu-nutrition"
     },
     {
-        "question_id": 6575,
-        "question": "What is the main source of protein in the British diet?\n ",
-        "options": {
-            "A": "Milk and milk products",
-            "B": "Pulses",
-            "C": "Fish and fish products",
-            "D": "Soy and soy products",
-            "E": "Cereals and cereal products",
-            "F": "Rice and rice products",
-            "G": "Nuts and seeds",
-            "H": "Eggs and egg products",
-            "I": "Fruits and vegetables",
-            "J": "Meat and meat products"
-        },
-        "answer": "J",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
         "question_id": 6576,
         "question": "Which statement about protein digestion and absorption is most correct?\n",
         "options": {
@@ -10883,25 +9610,6 @@
             "J": "22.9 kJ or 5.5 kcal per g"
         },
         "answer": "H",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6580,
-        "question": "How many kcal are there in one gram of ethanol?\n ",
-        "options": {
-            "A": "15.6 kJ or 3.7 kcal per g",
-            "B": "19.7 kJ or 4.1 kcal per g",
-            "C": "23.5 kJ or 5.8 kcal per g",
-            "D": "36.5 kJ or 8.1 kcal per g",
-            "E": "29.7 kJ or 7.1 kcal per g",
-            "F": "31.5 kJ or 7.5 kcal per g",
-            "G": "33.3 kJ or 7.9 kcal per g",
-            "H": "37.6 kJ or 9.0 kcal per g",
-            "I": "22.9 kJ or 5.5 kcal per g",
-            "J": "28.4 kJ or 6.8 kcal per g"
-        },
-        "answer": "E",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },
@@ -11514,25 +10222,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6613,
-        "question": "A sexually active 23-year-old man with multiple sex partners has dysuria and a yellow urethral exudate. Gram stain of the exudate shows numerous neutrophils, many that contain intracellular gram-negative diplococci. He has had three similar episodes of urethritis over the past 2 years. Which of the following properties of the infecting organism best explains the reinfection? ",
-        "options": {
-            "A": "Production of exotoxins",
-            "B": "Inhibition of neutrophil function",
-            "C": "Suppression of host immune response",
-            "D": "Inhibition of B-lymphocyte function",
-            "E": "Catalase",
-            "F": "Inhibition of T-lymphocyte function",
-            "G": "High mutation rate",
-            "H": "Resistance to antibiotics",
-            "I": "Antigenic variation",
-            "J": "Ability to form biofilms"
-        },
-        "answer": "I",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6614,
         "question": "A 29-year-old Hispanic woman, gravida 3, para 3, comes to the office because of recurrent low back pain during the past year. Rest and analgesics usually eradicate the pain within 2 weeks. However, the pain seems to recur every 2 to 3 months. Medical history is remarkable for gestational diabetes mellitus during her pregnancies. She takes no medications except for an oral contraceptive. She walks 3 miles daily for exercise and works as a sales representative for a computer software company. She is 165 cm (5 ft 5 in) tall and weighs 100 kg (220 lb); BMI is 37 kg/m2 . Vital signs are normal, and physical examination discloses no abnormalities. Which of the following is the most appropriate next step?",
         "options": {
@@ -11624,25 +10313,6 @@
             "J": "His employer"
         },
         "answer": "E",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6619,
-        "question": "A 37-year-old Anglo-American man is admitted to the hospital for treatment for cocaine dependency. He says he has tried repeatedly to abstain from cocaine use but lives in a part of town where there are heavy drug sales. He did not like his hospital outpatient group but liked his single session at Cocaine Anonymous. Vital signs are temperature 37.0\u00b0C (98.6\u00b0F), pulse 70/min, respirations 16/min, and blood pressure 125/85 mm Hg. Physical examination shows a thin man with good muscle strength and no focal neurologic deficits. The patient is using insurance coverage through his wife but does not wish for his diagnosis to be disclosed to anyone. He is on probation after a conviction for aggravated robbery 3 years ago. There is also a warrant for his arrest for assault and battery. After listening to his requests and weighing your obligations, you should disclose this patient's diagnosis only to which of the following? ",
-        "options": {
-            "A": "His employer",
-            "B": "His wife",
-            "C": "His previous outpatient group counselor",
-            "D": "No one, to respect his request for privacy",
-            "E": "The hospital's patient advocacy group",
-            "F": "Insurance company",
-            "G": "His family doctor",
-            "H": "The police, due to his outstanding warrant",
-            "I": "His Cocaine Anonymous sponsor",
-            "J": "His probation officer"
-        },
-        "answer": "F",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -11928,25 +10598,6 @@
             "J": "Production of digestive enzymes"
         },
         "answer": "I",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6635,
-        "question": "The function of the gastrointestinal tract can be classified in several ways. Which of the following functions is most important for survival immediately after a meal?\n ",
-        "options": {
-            "A": "Extraction of maximum value from nutrients",
-            "B": "Production of digestive enzymes",
-            "C": "Stimulation of appetite",
-            "D": "Processing of food into a liquid form",
-            "E": "Regulation of body temperature",
-            "F": "Absorption and retention of water and electrolytes",
-            "G": "Maintenance of barrier function",
-            "H": "Control of blood sugar levels",
-            "I": "Elimination of toxins",
-            "J": "Production of hormones for growth and repair"
-        },
-        "answer": "F",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },
@@ -12540,25 +11191,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6667,
-        "question": "A 32-year-old man is brought to the emergency department 30 minutes after being struck by a car while driving his motorcycle. He reports severe pelvic pain. On examination, there is bruising of the perineum and pain is elicited with motion of his pelvis. Blood is noted at the urethral meatus. There is no other penile trauma. A plain x-ray shows a fracture of the superior pubic ramus and retrograde urethrography is done to evaluate for a urethral disruption. Which of the following portions of the urethra would be at greatest risk for injury in this patient? ",
-        "options": {
-            "A": "Proximal",
-            "B": "Distal",
-            "C": "Anterior",
-            "D": "Spongy",
-            "E": "Prostatic",
-            "F": "Membranous",
-            "G": "Penile",
-            "H": "Intramural (pre-prostatic)",
-            "I": "Bulbous",
-            "J": "Posterior"
-        },
-        "answer": "F",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6668,
         "question": "A healthy 22-year-old man participates in a study of glucose metabolism. At the beginning of the study, his serum glucose concentration is within the reference range. He consumes an 800-calorie meal consisting of protein, fat, and carbohydrates. He then sleeps through the night without additional food or drink. Twelve hours later, his serum glucose concentration remains within the reference range. Which of the following mechanisms is most likely involved in maintaining this man's serum glucose concentration?",
         "options": {
@@ -12593,25 +11225,6 @@
             "J": "Acute disseminated encephalomyelitis"
         },
         "answer": "D",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6670,
-        "question": "A previously healthy 22-year-old college student is brought to the emergency department by her parents 20 minutes after they observed her having a seizure. After the seizure, she was confused and had difficulty thinking of some words. She has had a headache, cough, and fever for 3 days treated with acetaminophen and dextromethorphan. Her temperature is 38.9\u00b0C (102\u00b0F). Neurologic examination shows diffuse hyperreflexia. On mental status examination, she is confused and has short-term memory deficits. She has difficulty naming objects and makes literal paraphasic errors. An MRI of the brain shows bitemporal hyperintensities. A lumbar puncture is done; cerebrospinal fluid analysis shows an erythrocyte count of 340/mm3 , a leukocyte count of 121/mm3 (88% monocytes), and a protein concentration of 78 mg/dL. Which of the following is the most likely diagnosis? ",
-        "options": {
-            "A": "Herpes simplex encephalitis",
-            "B": "Viral meningitis",
-            "C": "Influenza encephalopathy",
-            "D": "Lyme disease",
-            "E": "Dextromethorphan intoxication",
-            "F": "Epstein-Barr virus encephalitis",
-            "G": "Acute disseminated encephalomyelitis",
-            "H": "Bacterial meningitis",
-            "I": "HIV encephalopathy",
-            "J": "Migraine with aura"
-        },
-        "answer": "A",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -12654,25 +11267,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6673,
-        "question": "An investigator is studying the incidence of the common cold among medical students at various time points during the school year. Results show an increased incidence of upper respiratory tract infections among these students during finals week. It is hypothesized that the stress of studying for examinations adversely affects the immune system, making the students more susceptible to infection. Which of the following laboratory findings in these students during examination week is most likely to support this hypothesis? ",
-        "options": {
-            "A": "Increased AM serum cortisol concentration",
-            "B": "Increased eosinophil count",
-            "C": "Decreased neutrophil count",
-            "D": "Decreased AM serum cortisol concentration",
-            "E": "Decreased basophil count",
-            "F": "Increased basophil count",
-            "G": "Increased lymphocyte count",
-            "H": "Decreased lymphocyte count",
-            "I": "Increased macrophage activity",
-            "J": "Decreased macrophage activity"
-        },
-        "answer": "A",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6674,
         "question": "A 30-year-old nulliparous female presents to the office with the complaint of mood changes. She says that for the past several months she has been anxious, hyperactive, and unable to sleep 3 to 4\u00a0days prior to the onset of menses. She further reports that on the day her menses begins she becomes acutely depressed, anorectic, irritable, and lethargic. She has no psychiatric history. Physical examination findings are normal. She and her husband have been trying to conceive for over 2\u00a0years. History reveals a tuboplasty approximately 1\u00a0year ago to correct a closed fallopian tube. The most likely diagnosis is",
         "options": {
@@ -12688,25 +11282,6 @@
             "J": "Major depressive disorder"
         },
         "answer": "I",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6675,
-        "question": "A 30-year-old nulliparous female presents to the office with the complaint of mood changes. She says that for the past several months she has been anxious, hyperactive, and unable to sleep 3 to 4\u00a0days prior to the onset of menses. She further reports that on the day her menses begins she becomes acutely depressed, anorectic, irritable, and lethargic. She has no psychiatric history. Physical examination findings are normal. She and her husband have been trying to conceive for over 2\u00a0years. History reveals a tuboplasty approximately 1\u00a0year ago to correct a closed fallopian tube. The most likely diagnosis is ",
-        "options": {
-            "A": "Major depressive disorder",
-            "B": "Seasonal affective disorder",
-            "C": "cyclothymic personality",
-            "D": "generalized anxiety disorder",
-            "E": "adjustment disorder with depressed mood",
-            "F": "Bipolar II disorder",
-            "G": "bipolar I disorder, mixed",
-            "H": "Post-traumatic stress disorder",
-            "I": "Persistent depressive disorder (dysthymia)",
-            "J": "Premenstrual dysphoric disorder"
-        },
-        "answer": "E",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -12745,25 +11320,6 @@
             "J": "Second-degree atrioventricular block, type II"
         },
         "answer": "D",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6678,
-        "question": "A 54-year-old man comes to the physician because of episodes of fainting for 3 months. He also has had difficulty performing daily tasks because he is easily fatigued. He had a myocardial infarction 12 years ago. His pulse is 40/min, respirations are 18/min, and blood pressure is 138/85 mm Hg. Physical examination shows evidence of cannon a waves. An ECG shows a P-wave rate of 90/min, and an R-wave rate of 40/min, with no apparent relation between the two. Which of the following is the most likely diagnosis? ",
-        "options": {
-            "A": "Ventricular fibrillation",
-            "B": "Right bundle branch block",
-            "C": "Supraventricular tachycardia",
-            "D": "Left bundle branch block",
-            "E": "Third-degree atrioventricular block",
-            "F": "Myocardial infarction",
-            "G": "First-degree atrioventricular block",
-            "H": "Sinus bradycardia",
-            "I": "Second-degree atrioventricular block, type II",
-            "J": "Second-degree atrioventricular block, type I"
-        },
-        "answer": "E",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -12844,25 +11400,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6683,
-        "question": "A 22-year-old male presents to the office with a\u00a05-day\u00a0history of diarrhea after completing his third course of antibiotics for mastoiditis. Physical examination reveals vague generalized abdominal pain on palpation. Culture on hektoen enteric agar is positive. The most likely etiologic agent causing the diarrhea is ",
-        "options": {
-            "A": "Shigella dysenteriae",
-            "B": "Campylobacter jejuni",
-            "C": "Giardia lamblia",
-            "D": "Staphylococcus aureus",
-            "E": "Entamoeba histolytica",
-            "F": "Yersinia enterocolitica",
-            "G": "Clostridium difficile",
-            "H": "Escherichia coli",
-            "I": "Vibrio cholerae",
-            "J": "Salmonella typhi"
-        },
-        "answer": "J",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6684,
         "question": "A 52-year-old woman has had dyspnea and hemoptysis for 1 month. She has a history of rheumatic fever as a child and has had a cardiac murmur since early adulthood. Her temperature is 36.7\u00b0C (98\u00b0F), pulse is 130/min and irregularly irregular, respirations are 20/min, and blood pressure is 98/60 mm Hg. Jugular venous pressure is not increased. Bilateral crackles are heard at the lung bases. There is an opening snap followed by a low-pitched diastolic murmur at the third left intercostal space. An x-ray of the chest shows left atrial enlargement, a straight left cardiac border, and pulmonary venous engorgement. Which of the following is the most likely explanation for these findings?",
         "options": {
@@ -12897,25 +11434,6 @@
             "J": "Onset of multiple sclerosis"
         },
         "answer": "B",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6686,
-        "question": "A 70-year-old woman comes to the office because of worsening tremor of her hands. The tremor has been present for most of her life and initially was mild and would occur only when she was tired or stressed. During the past month the shaking has become more noticeable and frequent. She is now embarrassed to eat with other people because of how obvious the tremor has become. The patient has been taking fluoxetine for the past 3 weeks to help her to cope with the death of her husband 2 months ago. Medical history is also remarkable for essential hypertension controlled with lisinopril and hyperlipidemia controlled with atorvastatin. Her only other medication is occasional ibuprofen for joint pain. She used to drink one to two alcoholic beverages monthly but now drinks one glass of wine daily because, she says, it reduces her tremor. She is 168 cm (5 ft 6 in) tall and weighs 70 kg (155 lb); BMI is 25 kg/m2 . Vital signs are temperature 36.4\u00b0C (97.6\u00b0F), pulse 80/min, respirations 18/min, and blood pressure 130/85 mm Hg. Physical examination shows a moderate tremor of both hands that is not present at rest. Complete blood count, serum chemistry profile, and serum thyroid function tests are ordered and results are pending. Which of the following is the most likely cause of the patient's worsening tremor? ",
-        "options": {
-            "A": "Adverse effect of lisinopril therapy",
-            "B": "Increase in alcohol consumption",
-            "C": "Onset of multiple sclerosis",
-            "D": "Essential tremor exacerbated by stress",
-            "E": "Adverse effect of atorvastatin therapy",
-            "F": "Bereavement reaction",
-            "G": "Early Parkinson disease",
-            "H": "Hyperthyroidism",
-            "I": "Adverse effect of ibuprofen therapy",
-            "J": "Adverse effect of fluoxetine therapy"
-        },
-        "answer": "J",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -13034,25 +11552,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6693,
-        "question": "A 24-year-old man is brought to the emergency department 40 minutes after he was involved in a motor vehicle collision. He was the unrestrained driver. He is conscious. Physical examination shows numerous lacerations and ecchymoses over the face. His vision is normal. Ocular, facial, and lingual movements are intact. The gag reflex is present. Sensation to pinprick is absent over the right side of the face anterior to the right ear, extending down along the full extent of the mandible to the chin. Sensation also is absent over the right side of the tongue. X-rays of the skull show fractures of the orbit, zygomatic arch, and infratemporal fossa. The most likely cause of these findings is a fracture affecting which of the following locations? ",
-        "options": {
-            "A": "Stylomastoid foramen",
-            "B": "Foramen ovale",
-            "C": "Jugular foramen",
-            "D": "Foramen spinosum",
-            "E": "Internal acoustic meatus",
-            "F": "Foramen rotundum",
-            "G": "Optic canal",
-            "H": "Superior orbital fissure",
-            "I": "Foramen magnum",
-            "J": "Foramen lacerum"
-        },
-        "answer": "B",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6695,
         "question": "Which foods tend to be consumed in lower quantities in Wales and Scotland (as of 2020)?\n",
         "options": {
@@ -13148,25 +11647,6 @@
         "src": "ori_mmlu-nutrition"
     },
     {
-        "question_id": 6700,
-        "question": "It is correct to state that for the treatment of Bulimia Nervosa:\n ",
-        "options": {
-            "A": "Treatment should focus solely on physical symptoms",
-            "B": "Treatments should target exclusively on purging practices",
-            "C": "It is not useful to discuss weight with patients",
-            "D": "Therapies should primarily focus on food avoidance tactics",
-            "E": "The first approach is to discuss body image",
-            "F": "Use of antipsychotic medication is first-line treatment",
-            "G": "Treatment should prioritize on patients' social relationships",
-            "H": "Treatment should ignore the psychological aspects of the disorder",
-            "I": "Fluoxetine is considered of benefit",
-            "J": "The main treatment approach is diet control"
-        },
-        "answer": "I",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
         "question_id": 6701,
         "question": "Which of the following amino acids cannot provide a substrate for gluconeogenesis?\n",
         "options": {
@@ -13182,25 +11662,6 @@
             "J": "Valine"
         },
         "answer": "I",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6702,
-        "question": "Which of the following amino acids cannot provide a substrate for gluconeogenesis?\n ",
-        "options": {
-            "A": "Threonine",
-            "B": "Arginine",
-            "C": "isoleucine",
-            "D": "Methionine",
-            "E": "Leucine",
-            "F": "Glutamine",
-            "G": "Alanine",
-            "H": "Valine",
-            "I": "Histidine",
-            "J": "Tryptophan"
-        },
-        "answer": "E",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },
@@ -14136,25 +12597,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6752,
-        "question": "A 45-year-old woman has a 2-week history of increased anxiety, abdominal discomfort, irritability, and difficulty concentrating; she was robbed at knifepoint in a parking lot 3 weeks ago. She takes levothyroxine for hypothyroidism and uses an over-the-counter inhaler as needed for exercise-induced asthma. Her blood pressure is 140/80 mm Hg, and pulse is 100/min. Examination shows dry skin and hair. She is cooperative but appears anxious, glancing around quickly when a loud noise is heard outside the office. Leukocyte count is 12,000/mm3 , and serum thyroid-stimulating hormone concentration is 5.0 \u03bcU/mL. An ECG shows sinus tachycardia. Which of the following is the most likely diagnosis? ",
-        "options": {
-            "A": "Hypothyroidism",
-            "B": "Generalized anxiety disorder",
-            "C": "Adjustment disorder",
-            "D": "Obsessive-compulsive disorder",
-            "E": "Panic disorder",
-            "F": "Social anxiety disorder",
-            "G": "Acute stress disorder",
-            "H": "Post-traumatic stress disorder",
-            "I": "Agoraphobia",
-            "J": "Specific phobia"
-        },
-        "answer": "G",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6753,
         "question": "A 15-year-old girl comes to the emergency department because, she says, \"something has been sticking out of my bottom since I had a bowel movement this morning.\" She has not had previous episodes, although for more than 1 year she has had occasional difficulty passing stools. She is not in pain but is afraid to move her bowels for fear that the problem will worsen. She tells you that she moved away from home more than a year ago and that her parents contribute nothing to her support. She has a 6-month-old child and lives with a 28-year-old female cousin. She has never been married and does not work or attend school. She has no other symptoms. In order to follow the correct procedure for treating a minor, which of the following is the most appropriate step prior to evaluating this patient's rectal problem?",
         "options": {
@@ -14231,25 +12673,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6757,
-        "question": "A male neonate, who was born at 36 weeks' gestation 2 hours ago in the labor and delivery unit of the hospital, now shows signs of respiratory difficulty. The mother, an 18-year-old primigravid woman, smoked one pack of cigarettes daily throughout her pregnancy. She received prenatal care during most of the pregnancy. One episode of chlamydial cervicitis was detected during the last trimester and treated with azithromycin. The neonate was born via cesarean delivery due to fetal heart rate decelerations. The amniotic fluid was stained with light particulate meconium. Apgar scores were 9 and 9 at 1 and 5 minutes, respectively. The patient is 50 cm (20 in; 50th percentile) long and weighs 3005 g (6 lb 10 oz; 50th percentile); head circumference is 35 cm (14 in; 50th percentile). The infant's vital signs now are temperature 36.6\u00b0C (97.8\u00b0F), pulse 150/min, and respirations 70/min. Pulse oximetry on room air shows an oxygen saturation of 95%. Physical examination discloses mild subcostal and intercostal retractions. Chest x-ray shows prominent pulmonary vascular markings and fluid in the intralobar fissures. Which of the following is the most likely diagnosis? ",
-        "options": {
-            "A": "Group B streptococcal sepsis",
-            "B": "Pulmonary embolism",
-            "C": "Respiratory distress syndrome",
-            "D": "Congenital heart disease",
-            "E": "Neonatal pneumonia",
-            "F": "Meconium aspiration syndrome",
-            "G": "Transient tachypnea of newborn",
-            "H": "Pulmonary hypoplasia",
-            "I": "Pneumothorax",
-            "J": "Pneumonia"
-        },
-        "answer": "G",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6758,
         "question": "A 42-year-old woman comes to the physician because of an 8-week history of intermittent nausea and abdominal pain that occurs 20 to 30 minutes after eating. The pain extends from the epigastrium to the right upper quadrant and is sometimes felt in the right scapula; it lasts about 30 minutes and is not relieved by antacids. The last episode occurred after she ate a hamburger and french fries. She has not had vomiting. She is currently asymptomatic. She is 165 cm (5 ft 5 in) tall and weighs 104 kg (230 lb); BMI is 38 kg/m2 . Examination shows no other abnormalities. Which of the following is the most appropriate next step in management?",
         "options": {
@@ -14307,25 +12730,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6761,
-        "question": "A 3-week-old male infant is brought to the office by his mother because of a 2-day history of white lesions in the mouth. The infant was born at term via uncomplicated spontaneous vaginal delivery; he has been breast-feeding well and is urinating and having bowel movements normally. At birth, he weighed 3289 g (7 lb 4 oz; 30th percentile). Today, he weighs 3629 kg (8 lb; 25th percentile). He appears adequately hydrated. Vital signs are normal. Physical examination discloses white patches on the tongue and buccal mucosa that do not come off when gently scraped with a tongue blade. Which of the following is the most appropriate pharmacotherapy? ",
-        "options": {
-            "A": "Miconazole",
-            "B": "Voriconazole",
-            "C": "Amphotericin B",
-            "D": "Valacyclovir",
-            "E": "Fluconazole",
-            "F": "Ketoconazole",
-            "G": "Nystatin",
-            "H": "Acyclovir",
-            "I": "Terbinafine",
-            "J": "Clotrimazole"
-        },
-        "answer": "G",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6762,
         "question": "A new severe respiratory illness caused by a newly identified virus is discovered. Which of the following properties of a killed vaccine relative to a live vaccine is the most appropriate rationale for developing a killed vaccine for this illness?",
         "options": {
@@ -14341,25 +12745,6 @@
             "J": "Is less likely to be affected by preexisting antibodies"
         },
         "answer": "I",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6763,
-        "question": "A new severe respiratory illness caused by a newly identified virus is discovered. Which of the following properties of a killed vaccine relative to a live vaccine is the most appropriate rationale for developing a killed vaccine for this illness? ",
-        "options": {
-            "A": "Is less likely to cause local adverse reactions at the site of injection",
-            "B": "Is most likely to generate mucosal immunity",
-            "C": "Is less likely to be affected by preexisting antibodies",
-            "D": "Can be administered in higher doses",
-            "E": "Develops more rapid protective immunity",
-            "F": "Is less likely to cause an allergic reaction",
-            "G": "Avoids the concern for reversion to virulence",
-            "H": "Is less likely to require subsequent boosters for lifelong immunity",
-            "I": "Is more likely to provide sterilizing immunity",
-            "J": "Is more effective for immunocompromised individuals"
-        },
-        "answer": "G",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -14877,25 +13262,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6791,
-        "question": "A 19-year-old Asian female college student comes to the university health center because of a 1-week history of nasal stuffiness, occasional clear rhinorrhea, and a mild sore throat. Two days ago, she began to feel hot, but she has not taken her temperature. Medical history is unremarkable and her only medication is an oral contraceptive. She has no history of allergies. She does not smoke cigarettes. BMI is 22 kg/m2 . Vital signs are temperature 38.1\u00b0C (100.6\u00b0F), pulse 88/min, respirations 16/min, and blood pressure 116/74 mm Hg. Physical examination discloses tenderness over the left maxillary sinus without purulent drainage. There is clear fluid behind the left tympanic membrane, enlarged tonsils bilaterally, and pain with tapping of the left upper incisors. Left frontal sinus does not transilluminate. Cardiopulmonary examination discloses no abnormalities. Which of the following is the most likely underlying mechanism of this patient's sinusitis? ",
-        "options": {
-            "A": "Allergic reaction",
-            "B": "Mucosal edema",
-            "C": "Bacterial infection",
-            "D": "Eustachian tube dysfunction",
-            "E": "Immune system disorder",
-            "F": "Fungal infection",
-            "G": "Chronic sinusitis",
-            "H": "Viral infection",
-            "I": "Nasal polyps",
-            "J": "Oral contraceptive use"
-        },
-        "answer": "B",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6792,
         "question": "A randomized controlled trial is conducted to assess the effectiveness of a new combination-drug antihypertensive therapy (Drug X) compared with a standard antihypertensive single-drug therapy. Study participants include 140 women (70%) and 60 men (30%) ages 30 to 60 years, with baseline blood pressure measurements of 150/95 mm Hg or higher. The investigators defined antihypertensive therapy as effective if the treatment resulted in a blood pressure measurement below 140/90 mm Hg. When designing the study, the investigators set the probability of wrongly finding that Drug X is more effective than the standard therapy as 1%; they set the probability of wrongly finding that the effectiveness of the two drugs is the same as 10%. Which of the following is the most accurate estimate of the statistical power in this study?",
         "options": {
@@ -14930,25 +13296,6 @@
             "J": "stool culture"
         },
         "answer": "B",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6794,
-        "question": "A 20-year-old female presents to the emergency department with a 2-day history of nausea and vomiting. She says that today she noticed a slight amount of blood in her vomit. She is a pre-med college student and admits to being under a lot of stress as she takes final exams. She also says that she drinks a large amount of coffee daily. Vital signs are normal. Which of the following is the most appropriate initial test to order? ",
-        "options": {
-            "A": "esophagram (barium swallow)",
-            "B": "abdominal flat plate radiography",
-            "C": "blood alcohol level",
-            "D": "stool culture",
-            "E": "upper gastrointestinal endoscopy",
-            "F": "amylase level",
-            "G": "complete blood count",
-            "H": "urine pregnancy test",
-            "I": "liver function tests",
-            "J": "thyroid function tests"
-        },
-        "answer": "H",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -14991,25 +13338,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6797,
-        "question": "A 17-year-old girl is brought to the emergency department 15 minutes after being stung by a bee. She has mild lightheadedness but no difficulty swallowing. Her temperature is 37.1\u00b0C (98.8\u00b0F), pulse is 100/min, respirations are 30/min, and blood pressure is 115/70 mm Hg. Physical examination shows no urticaria. Bilateral wheezing is heard on auscultation of the chest. Which of the following types of drugs is the most appropriate pharmacotherapy for this patient? ",
-        "options": {
-            "A": "\u03b22-Adrenergic antagonist",
-            "B": "\u03b12-Adrenergic antagonist",
-            "C": "Non-selective \u03b2-Adrenergic antagonist",
-            "D": "\u03b21-Adrenergic antagonist",
-            "E": "\u03b22-Adrenergic agonist",
-            "F": "\u03b21-Adrenergic agonist",
-            "G": "\u03b11-Adrenergic agonist",
-            "H": "\u03b11-Adrenergic antagonist",
-            "I": "Non-selective \u03b2-Adrenergic agonist",
-            "J": "\u03b12-Adrenergic agonist"
-        },
-        "answer": "E",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6798,
         "question": "A previously healthy 40-year-old man is brought to the emergency department because of constant substernal chest pain for 12 hours that is exacerbated by coughing and inspiration. The pain is relieved with sitting up and leaning forward. There is no family history of heart disease. His temperature is 38\u00b0C (100.4\u00b0F), pulse is 120/min, and blood pressure is 110/60 mm Hg. The lungs are clear to auscultation. Cardiac examination shows distant heart sounds. An ECG shows diffuse ST-segment elevation in all leads. An x-ray of the chest shows normal findings. The most likely cause of his condition is injury to which of the following tissues?",
         "options": {
@@ -15025,25 +13353,6 @@
             "J": "Pericardium"
         },
         "answer": "J",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6799,
-        "question": "A previously healthy 40-year-old man is brought to the emergency department because of constant substernal chest pain for 12 hours that is exacerbated by coughing and inspiration. The pain is relieved with sitting up and leaning forward. There is no family history of heart disease. His temperature is 38\u00b0C (100.4\u00b0F), pulse is 120/min, and blood pressure is 110/60 mm Hg. The lungs are clear to auscultation. Cardiac examination shows distant heart sounds. An ECG shows diffuse ST-segment elevation in all leads. An x-ray of the chest shows normal findings. The most likely cause of his condition is injury to which of the following tissues? ",
-        "options": {
-            "A": "Aortic intima",
-            "B": "Bronchial epithelium",
-            "C": "Myocardium",
-            "D": "Pleural membrane",
-            "E": "Vascular endothelium",
-            "F": "Pulmonary alveoli",
-            "G": "Tracheal tissue",
-            "H": "Pericardium",
-            "I": "Cardiac valves",
-            "J": "Esophageal sphincter"
-        },
-        "answer": "H",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -15124,25 +13433,6 @@
         "src": "ori_mmlu-professional_medicine"
     },
     {
-        "question_id": 6804,
-        "question": "A 42-year-old man comes to the physician because of malaise, muscle and joint pain, and temperatures to 38.4\u00b0C (101.1\u00b0F) for 3 days. Three months ago, he underwent cadaveric renal transplantation resulting in immediate kidney function. At the time of discharge, his serum creatinine concentration was 0.8 mg/dL. He is receiving cyclosporine and corticosteroids. Examination shows no abnormalities. His leukocyte count is 2700/mm3 , and serum creatinine concentration is 1.6 mg/dL; serum cyclosporine concentration is in the therapeutic range. A biopsy of the transplanted kidney shows intracellular inclusion bodies. Which of the following is the most appropriate next step in management? ",
-        "options": {
-            "A": "Increase the dosage of corticosteroids",
-            "B": "Begin ganciclovir therapy",
-            "C": "Decrease the dosage of cyclosporine",
-            "D": "Increase the dosage of cyclosporine",
-            "E": "Begin acyclovir therapy",
-            "F": "Begin amphotericin therapy",
-            "G": "Discontinue all medications and monitor the patient's condition",
-            "H": "Perform a second kidney transplant",
-            "I": "Decrease the dosage of corticosteroids",
-            "J": "Begin interferon therapy"
-        },
-        "answer": "B",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
         "question_id": 6805,
         "question": "A 22-year-old woman comes to the emergency department because of a 5-day history of sore throat and fever. During the past 3 days, she also has noticed a change in her voice and has had increased pain with swallowing. She has been taking acetaminophen since her symptoms began. Medical history is unremarkable and she takes no routine medications. Vital signs are temperature 40.0\u00b0C (104.0\u00b0F), pulse 130/min, respirations 18/min, and blood pressure 102/66 mm Hg. Pulse oximetry on room air shows an oxygen saturation of 97%. Examination of the oropharynx shows erythema, edema, and anterior displacement of the right side of the soft palate. The uvula is deviated to the left. There is a white exudate on the right tonsil. Trismus is noted. Palpation of the neck discloses enlarged, tender, mobile anterior cervical lymph nodes. In addition to antibiotic therapy, which of the following is the most appropriate management?",
         "options": {
@@ -15158,25 +13448,6 @@
             "J": "Inhaled corticosteroid therapy"
         },
         "answer": "F",
-        "cot_content": "",
-        "src": "ori_mmlu-professional_medicine"
-    },
-    {
-        "question_id": 6806,
-        "question": "A 22-year-old woman comes to the emergency department because of a 5-day history of sore throat and fever. During the past 3 days, she also has noticed a change in her voice and has had increased pain with swallowing. She has been taking acetaminophen since her symptoms began. Medical history is unremarkable and she takes no routine medications. Vital signs are temperature 40.0\u00b0C (104.0\u00b0F), pulse 130/min, respirations 18/min, and blood pressure 102/66 mm Hg. Pulse oximetry on room air shows an oxygen saturation of 97%. Examination of the oropharynx shows erythema, edema, and anterior displacement of the right side of the soft palate. The uvula is deviated to the left. There is a white exudate on the right tonsil. Trismus is noted. Palpation of the neck discloses enlarged, tender, mobile anterior cervical lymph nodes. In addition to antibiotic therapy, which of the following is the most appropriate management? ",
-        "options": {
-            "A": "Oral antifungal therapy",
-            "B": "Oral pain reliever therapy",
-            "C": "Tranquilizer therapy",
-            "D": "Oral nystatin therapy",
-            "E": "Intravenous antiviral therapy",
-            "F": "Inhaled corticosteroid therapy",
-            "G": "Incision and drainage",
-            "H": "Antacid therapy",
-            "I": "Salt water gargle",
-            "J": "Intravenous methylprednisolone therapy"
-        },
-        "answer": "G",
         "cot_content": "",
         "src": "ori_mmlu-professional_medicine"
     },
@@ -15215,25 +13486,6 @@
             "J": "Ammonia"
         },
         "answer": "H",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6809,
-        "question": "Which of the following is the main nitrogenous compound in urine?\n ",
-        "options": {
-            "A": "Uric acid",
-            "B": "Ammonia",
-            "C": "Nitrites",
-            "D": "Creatinine",
-            "E": "Urethane",
-            "F": "Nitric Acid",
-            "G": "Amino Acids",
-            "H": "Nitrous Oxide",
-            "I": "Nitrogen",
-            "J": "Urea"
-        },
-        "answer": "J",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },
@@ -15310,25 +13562,6 @@
             "J": "apo(a), apoB, apoC, apoD, and apoE"
         },
         "answer": "C",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6814,
-        "question": "Which are the FIVE main series of apoproteins that have been identified?\n ",
-        "options": {
-            "A": "apoA, apo(a), apoB, apoC and apoG",
-            "B": "apoA, apoB, apoC, apo E, and apoL",
-            "C": "apoA, apoB, apoC, apoD, and apo(a)",
-            "D": "apoA, apoB, apoC, apoD, and apoE",
-            "E": "apo(a), apoB, apoC, apoD, and apoE",
-            "F": "apoB, apoC, apoD, apoE and apoM",
-            "G": "apoA, apoB, apoC, apoD, and apoF",
-            "H": "apoA, apo(a), apoB, apoC and apoE",
-            "I": "apoA, apo(a), apoB, apoC and apoH",
-            "J": "apoA, apoB, apoC, apo(a) and apoM"
-        },
-        "answer": "H",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },
@@ -15481,25 +13714,6 @@
             "J": "Plasma triacylglycerol in VLDL"
         },
         "answer": "C",
-        "cot_content": "",
-        "src": "ori_mmlu-nutrition"
-    },
-    {
-        "question_id": 6823,
-        "question": "Which of the following will provide the main fuel for muscle contraction during short-term intense activity such as sprinting?\n ",
-        "options": {
-            "A": "Muscle protein",
-            "B": "Muscle triacylglycerol",
-            "C": "Plasma triacylglycerol in VLDL",
-            "D": "Ingested carbohydrates",
-            "E": "Liver glycogen",
-            "F": "Plasma amino acids",
-            "G": "Muscle glycogen",
-            "H": "Plasma free fatty acids",
-            "I": "Plasma lactate",
-            "J": "Plasma glucose"
-        },
-        "answer": "G",
         "cot_content": "",
         "src": "ori_mmlu-nutrition"
     },

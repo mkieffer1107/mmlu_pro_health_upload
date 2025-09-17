@@ -63,14 +63,23 @@ if __name__ == "__main__":
     excluded_ids = set()
     with open("problem_ids.json", "r") as f:
         data = json.load(f)
-        excluded_ids.update(data["unrelated"])
-        excluded_ids.update(data["tangentially_related"])
+        # excluded_ids.update(data["unrelated"])
+        # excluded_ids.update(data["fact_or_stat_that_could_change"])
+        # excluded_ids.update(data["tangentially_related"])
+        # excluded_ids.update(data["answer_format_wrong"])
+        # excluded_ids.update(data["weird_questions"])
+        for pair in data.get("duplicates", []):
+            if len(pair) == 2:
+                excluded_ids.add(pair[1])
 
     # combine them into one dataset
     combined = concatenate_datasets([health_dataset["test"], health_dataset["validation"]])
-    # combined = combined.filter(lambda ex: ex["question_id"] not in excluded_ids)
+
+    print(f"Combined dataset before filtering num_rows: {combined.num_rows}")
+    combined = combined.filter(lambda ex: ex["question_id"] not in excluded_ids)
     combined = combined.map(preprocess)
-    print(f"Combined dataset num_rows: {combined.num_rows}")
+    print(f"Combined dataset after filtering num_rows: {combined.num_rows}")
+
 
     # 80/20 split
     dataset = combined.train_test_split(test_size=EVAL_FRAC, seed=12345)

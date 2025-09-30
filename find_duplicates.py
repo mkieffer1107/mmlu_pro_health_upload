@@ -30,6 +30,8 @@ def find_pairwise_duplicates(data):
 
 if __name__ == "__main__":
     dataset = load_dataset("TIGER-Lab/MMLU-Pro")
+    print("number of test examples:", dataset["test"].num_rows)
+    print("number of validation examples:", dataset["validation"])
     combined = concatenate_datasets([dataset["test"], dataset["validation"]])
     data = combined.to_list()
     

@@ -1,0 +1,78 @@
+[
+    {
+        "question_id": 5,
+        "question": "Which of the following is the body cavity that contains the pituitary gland?",
+        "options": {
+            "A": "Ventral",
+            "B": "Dorsal",
+            "C": "Buccal",
+            "D": "Thoracic",
+            "E": "Pericardial",
+            "F": "Abdominal",
+            "G": "Spinal",
+            "H": "Pelvic",
+            "I": "Pleural",
+            "J": "Cranial"
+        },
+        "answer": "J",
+        "cot_content": "A: Let's think step by step. We refer to Wikipedia articles on anatomy for help. Let\u2019s solve this problem step by step. The pituitary gland is the major endocrine gland attached to the base of the brain, and it is contained in the Cranial cavity. The answer is (J).",
+        "src": "cot_lib-anatomy"
+    },
+    {
+        "question_id": 6,
+        "question": "What is the embryological origin of the hyoid bone?",
+        "options": {
+            "A": "The third and fourth pharyngeal arches",
+            "B": "The fourth pharyngeal arch",
+            "C": "The third pharyngeal arch",
+            "D": "The second pharyngeal arch",
+            "E": "The second, third and fourth pharyngeal arches",
+            "F": "The first pharyngeal arch",
+            "G": "The second and third pharyngeal arches",
+            "H": "The first and third pharyngeal arches",
+            "I": "The first, second and third pharyngeal arches",
+            "J": "The first and second pharyngeal arches"
+        },
+        "answer": "G",
+        "cot_content": "A: Let's think step by step. We refer to Wikipedia articles on anatomy for help. Let\u2019s solve this problem step by step. The hyoid bone, which is also known as the hyooid, is a a small U-shaped bone located in the anterior neck. In its resting position, it lies between the ase of the mandible and the third cervical vertebrae. We know that the second and the third pharyngeal arches give rise to the horns of the hyoid bone; therefore, the embryological origin of the hyoid bone are the second and the third pharyngeal arches\u2014this information is covered in option (G). Therefore, we conclude that (G) must be the correct answer. The answer is (G).",
+        "src": "cot_lib-anatomy"
+    },
+    {
+        "question_id": 7,
+        "question": "What is the difference between a male and a female catheter?",
+        "options": {
+            "A": "Female catheters are used more frequently than male catheters.",
+            "B": "Male catheters are bigger than female catheters.",
+            "C": "Male catheters are more flexible than female catheters.",
+            "D": "Male catheters are made from a different material than female catheters.",
+            "E": "Female catheters are longer than male catheters.",
+            "F": "Male catheters are longer than female catheters.",
+            "G": "Female catheters are bigger than male catheters.",
+            "H": "Female catheters have a curved shape while male catheters are straight.",
+            "I": "Male and female catheters are different colours.",
+            "J": "Male catheters have a smaller diameter than female catheters."
+        },
+        "answer": "F",
+        "cot_content": "A: Let's think step by step. We refer to Wikipedia articles on clinical knowledge for help. The difference between a male and female catheter is that male catheters tend to be longer than female catheters. The answer is (F).",
+        "src": "cot_lib-clinical_knowledge"
+    },
+    {
+        "question_id": 9,
+        "question": "Why are parvoviruses a highly impactful parasite?",
+        "options": {
+            "A": "They are able to alter the host's DNA",
+            "B": "Because they have no nucleic acid",
+            "C": "They can survive in extreme temperatures",
+            "D": "Only replicate in dividing cells",
+            "E": "They can infect multiple species",
+            "F": "They don't require a host to survive",
+            "G": "Can integrate into host chromosomes",
+            "H": "N/A",
+            "I": "N/A",
+            "J": "N/A"
+        },
+        "answer": "B",
+        "cot_content": "A: Let's think step by step. We refer to Wikipedia articles on virology for help. Paroviruses are highly impactful because they do not have nucleic acid. The answer is (B).",
+        "src": "cot_lib-virology"
+    }
+]

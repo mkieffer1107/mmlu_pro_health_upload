@@ -7,10 +7,10 @@ if __name__ == "__main__":
     dataset = load_dataset("mkieffer/MMLU-Pro-Health")
 
     # load only train split
-    dataset_train = load_dataset("mkieffer/MMLU-Pro-Health", split="train")
+    dataset_train = load_dataset("mkieffer/MMLU-Pro-Health", split="test")
 
     # load only test split
-    dataset_test = load_dataset("mkieffer/MMLU-Pro-Health", split="test")
+    dataset_test = load_dataset("mkieffer/MMLU-Pro-Health", split="validation")
 
     print("\nfull dataset:\n", dataset)
     print("\ntrain split:\n", dataset_train)

@@ -28,3 +28,8 @@ All credit belongs to the [original authors](https://huggingface.co/datasets/TIG
 ```sh
 python find_duplicates.py
 ```
+
+**111 redundant superset pairs identified in MMLU-Pro**:
+```sh
+python find_supersets.py
+```

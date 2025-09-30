@@ -24,6 +24,7 @@ Voila! The dataset now lives [on HuggingFace](https://huggingface.co/datasets/mk
 
 All credit belongs to the [original authors](https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro)
 
+---
 
 **Filtering details**:
 The question ID's of filtered rows are included below. In general, rows that are not specifically about health or that are duplicates were removed.

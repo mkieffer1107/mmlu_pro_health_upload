@@ -27,6 +27,7 @@ All credit belongs to the [original authors](https://huggingface.co/datasets/TIG
 ---
 
 **Filtering details**:
+
 The question ID's of filtered rows are included below. In general, rows that are not specifically about health or that are duplicates were removed.
 
 Filtering details related to the health category can be found [here](https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/discussions/31), and general deduping details of the MMLU-Pro dataset can be found [here](https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/discussions/33).

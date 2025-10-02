@@ -62,7 +62,7 @@ Filtered and deduped version of the MMLU-Pro health category to remove extraneou
 
 The dataset contains two splits:
   - **test**: up to ten-option multiple-choice QA (choices A-J)
-  - **validation**: up to ten-option multiple-choice QA (choices A-J)
+  - **validation**: up to ten-option multiple-choice QA (choices A-J) with CoT meant for [few-shot examples](https://github.com/TIGER-AI-Lab/MMLU-Pro/blob/main/evaluate_from_api.py#L231)
 
 The train/validation splits from the original dataset were not altered, only filtered down.
 

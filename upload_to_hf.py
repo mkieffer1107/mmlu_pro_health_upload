@@ -65,7 +65,25 @@ def as_option_dict(options):
     return formatted
 
 
-def preprocess(example):
+def load_cot_replacements(cots_dir):
+    """Load CoT content replacements from files in the cots directory."""
+    cot_replacements = {}
+    if not os.path.exists(cots_dir):
+        return cot_replacements
+    
+    for filename in os.listdir(cots_dir):
+        if filename.endswith('.txt'):
+            try:
+                question_id = int(filename.replace('.txt', ''))
+                filepath = os.path.join(cots_dir, filename)
+                with open(filepath, 'r') as f:
+                    cot_replacements[question_id] = f.read().strip()
+            except ValueError:
+                print(f"Warning: Could not parse question_id from filename {filename}")
+    
+    return cot_replacements
+
+def preprocess(example, cot_replacements=None, is_validation=False):
     example["options"] = as_option_dict(example.get("options"))
 
     for key in ("question", "answer", "cot_content", "src"):
@@ -77,6 +95,10 @@ def preprocess(example):
         example["question_id"] = int(question_id)
     except (TypeError, ValueError):
         example["question_id"] = -1
+
+    # Replace cot_content if we have a replacement for this question_id
+    if is_validation and cot_replacements and example["question_id"] in cot_replacements:
+        example["cot_content"] = cot_replacements[example["question_id"]]
 
     example.pop("answer_index", None)
     example.pop("category", None)
@@ -118,6 +140,7 @@ if __name__ == "__main__":
                 excluded_ids.add(subset)
 
     for category in [
+        "incorrect",
         "unrelated",
         "fact_or_stat_that_could_change",
         "tangentially_related",
@@ -141,11 +164,21 @@ if __name__ == "__main__":
 
     print(f"Excluding {len(excluded_ids)} question ids based on problem_ids.json.")
 
+    # Load CoT content replacements
+    cots_dir = "cots"
+    cot_replacements = load_cot_replacements(cots_dir)
+    if cot_replacements:
+        print(f"Loaded {len(cot_replacements)} CoT replacements for validation split: {list(cot_replacements.keys())}")
+
     filtered_splits = {}
     for split, split_dataset in health_dataset.items():
         before_rows = split_dataset.num_rows
         filtered = split_dataset.filter(lambda ex: ex["question_id"] not in excluded_ids)
-        filtered = filtered.map(preprocess)
+        
+        # Apply preprocessing with CoT replacements for validation split
+        is_validation = (split == "validation")
+        filtered = filtered.map(lambda ex: preprocess(ex, cot_replacements=cot_replacements, is_validation=is_validation))
+        
         filtered = filtered.cast(DATASET_FEATURES)
         filtered = Dataset.from_list(filtered.to_list(), features=DATASET_FEATURES)
         print(f"{split} num_rows after filtering: {filtered.num_rows} (from {before_rows})")

@@ -15,9 +15,9 @@ huggingface-cli login
 And enter the configs you like:
 ```sh
 python upload_to_hf.py \
-    --hf_username <username> \
+    --hf_username mkieffer \
     --hf_repo_name MMLU-Pro-Health \
-    --private true
+    --private false
 ```
 
 Voila! The dataset now lives [on HuggingFace](https://huggingface.co/datasets/mkieffer/MMLU-Pro-Health).

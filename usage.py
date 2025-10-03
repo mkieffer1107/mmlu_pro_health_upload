@@ -6,15 +6,15 @@ if __name__ == "__main__":
     # load all data
     dataset = load_dataset("mkieffer/MMLU-Pro-Health")
 
-    # load only train split
-    dataset_train = load_dataset("mkieffer/MMLU-Pro-Health", split="test")
-
     # load only test split
-    dataset_test = load_dataset("mkieffer/MMLU-Pro-Health", split="validation")
+    dataset_test = load_dataset("mkieffer/MMLU-Pro-Health", split="test")
+
+    # load only validation split
+    dataset_val = load_dataset("mkieffer/MMLU-Pro-Health", split="validation")
 
     print("\nfull dataset:\n", dataset)
-    print("\ntrain split:\n", dataset_train)
-    print("\ntest split:\n", dataset_test)
+    print("\test split:\n", dataset_test)
+    print("\validation split:\n", dataset_val)
 
-    print("\ntrain sample:\n", json.dumps(dataset_train[0], indent=2))
-    print("\ntest sample:\n", json.dumps(dataset_test[0], indent=2))
+    print("\test sample:\n", json.dumps(dataset_test[0], indent=2))
+    print("\validation sample:\n", json.dumps(dataset_val[0], indent=2))

@@ -1,57 +1,3 @@
----
-dataset_info:
-  features:
-  - name: question_id
-    dtype: int64
-  - name: question
-    dtype: string
-  - name: options
-    struct:
-    - name: A
-      dtype: string
-    - name: B
-      dtype: string
-    - name: C
-      dtype: string
-    - name: D
-      dtype: string
-    - name: E
-      dtype: string
-    - name: F
-      dtype: string
-    - name: G
-      dtype: string
-    - name: H
-      dtype: string
-    - name: I
-      dtype: string
-    - name: J
-      dtype: string
-  - name: answer
-    dtype: string
-  - name: cot_content
-    dtype: string
-  - name: src
-    dtype: string
-  splits:
-  - name: test
-    num_bytes: 357105
-    num_examples: 553
-  - name: validation
-    num_bytes: 3114
-    num_examples: 4
-  download_size: 244445
-  dataset_size: 360219
-configs:
-- config_name: default
-  data_files:
-  - split: test
-    path: data/test-*
-  - split: validation
-    path: data/validation-*
----
-
-
 # MMLU-Pro-Health
 
 Filtered and deduped version of the MMLU-Pro health category to remove extraneous rows. If used, please cite the original authors using the citation below.
@@ -64,7 +10,7 @@ The dataset contains two splits:
   - **test**: up to ten-option multiple-choice QA (choices A-J)
   - **validation**: up to ten-option multiple-choice QA (choices A-J) with CoT meant for [few-shot examples](https://github.com/TIGER-AI-Lab/MMLU-Pro/blob/main/evaluate_from_api.py#L231)
 
-The train/validation splits from the original dataset were not altered, only filtered down.
+The test split from the original dataset were not altered, only filtered down. The `cot_content` columns in the validation split, which are meant to be used as few-shot examples, were replaced to remove excessive references to Wikipedia that polluted downstream generation. The new `cot_content` columns were generated using the final output of [Baichuan-M2-32B](https://huggingface.co/baichuan-inc/Baichuan-M2-32B). We chose not to use the full reasoning trace, and instead go with the exposed, summarized CoT from the model to ensure that the new `cot_content` has a similar length to others in the dataset.
 
 ### Dataset Sources
 
@@ -82,18 +28,18 @@ if __name__ == "__main__":
     # load all data
     dataset = load_dataset("mkieffer/MMLU-Pro-Health")
 
-    # load only train split
-    dataset_train = load_dataset("mkieffer/MMLU-Pro-Health", split="test")
-
     # load only test split
-    dataset_test = load_dataset("mkieffer/MMLU-Pro-Health", split="validation")
+    dataset_test = load_dataset("mkieffer/MMLU-Pro-Health", split="test")
+
+    # load only validation split
+    dataset_val = load_dataset("mkieffer/MMLU-Pro-Health", split="validation")
 
     print("\nfull dataset:\n", dataset)
-    print("\ntrain split:\n", dataset_train)
-    print("\ntest split:\n", dataset_test)
+    print("\test split:\n", dataset_test)
+    print("\validation split:\n", dataset_val)
 
-    print("\ntrain sample:\n", json.dumps(dataset_train[0], indent=2))
-    print("\ntest sample:\n", json.dumps(dataset_test[0], indent=2))
+    print("\test sample:\n", json.dumps(dataset_test[0], indent=2))
+    print("\validation sample:\n", json.dumps(dataset_val[0], indent=2))
 ```
 
 
@@ -118,6 +64,9 @@ Filtering details related to the health category can be found [here](https://hug
 
 ```json
 {
+    "incorrect" :[
+      9
+    ],
     "unrelated": [
         6717,
         6079,
@@ -385,6 +334,231 @@ Filtering details related to the health category can be found [here](https://hug
         [6822, 6823]
     ],
   "supersets": {
+    "885": [
+      884
+    ],
+    "889": [
+      888
+    ],
+    "892": [
+      891
+    ],
+    "901": [
+      900
+    ],
+    "905": [
+      904
+    ],
+    "911": [
+      910
+    ],
+    "913": [
+      912
+    ],
+    "917": [
+      916
+    ],
+    "994": [
+      993
+    ],
+    "1000": [
+      999
+    ],
+    "1002": [
+      1001
+    ],
+    "1004": [
+      1003
+    ],
+    "1058": [
+      1057
+    ],
+    "1063": [
+      1062
+    ],
+    "1067": [
+      1066
+    ],
+    "1081": [
+      1080
+    ],
+    "1083": [
+      1082
+    ],
+    "1127": [
+      1126
+    ],
+    "1129": [
+      1128
+    ],
+    "1136": [
+      1135
+    ],
+    "1137": [
+      1138
+    ],
+    "1141": [
+      1140
+    ],
+    "1150": [
+      1149
+    ],
+    "1153": [
+      1152
+    ],
+    "1211": [
+      1210
+    ],
+    "1218": [
+      1217
+    ],
+    "1226": [
+      1225
+    ],
+    "1287": [
+      1286
+    ],
+    "1291": [
+      1290
+    ],
+    "1300": [
+      1299
+    ],
+    "1307": [
+      1306
+    ],
+    "1311": [
+      1310
+    ],
+    "1314": [
+      1313
+    ],
+    "1316": [
+      1315
+    ],
+    "1320": [
+      1321
+    ],
+    "1386": [
+      1385
+    ],
+    "1388": [
+      1387
+    ],
+    "1391": [
+      1390
+    ],
+    "1393": [
+      1392
+    ],
+    "1395": [
+      1394
+    ],
+    "1406": [
+      1405
+    ],
+    "1408": [
+      1407
+    ],
+    "1410": [
+      1409
+    ],
+    "1486": [
+      1485
+    ],
+    "1488": [
+      1487
+    ],
+    "1510": [
+      1509
+    ],
+    "1513": [
+      1512
+    ],
+    "1519": [
+      1518
+    ],
+    "1521": [
+      1520
+    ],
+    "1523": [
+      1522
+    ],
+    "1576": [
+      1575
+    ],
+    "1588": [
+      1587
+    ],
+    "1592": [
+      1591
+    ],
+    "1597": [
+      1596
+    ],
+    "1601": [
+      1600
+    ],
+    "1662": [
+      1661
+    ],
+    "1674": [
+      1673
+    ],
+    "1683": [
+      1682
+    ],
+    "1685": [
+      1684
+    ],
+    "1687": [
+      1686
+    ],
+    "1693": [
+      1692
+    ],
+    "1767": [
+      1766
+    ],
+    "1769": [
+      1768
+    ],
+    "1775": [
+      1774
+    ],
+    "1781": [
+      1780
+    ],
+    "1785": [
+      1784
+    ],
+    "1862": [
+      1861
+    ],
+    "1864": [
+      1863
+    ],
+    "1866": [
+      1865
+    ],
+    "1871": [
+      1870
+    ],
+    "1873": [
+      1872
+    ],
+    "1875": [
+      1874
+    ],
+    "1931": [
+      1930
+    ],
+    "1947": [
+      1946
+    ],
+    "1949": [
+      1948
+    ],
     "6039": [
       6038
     ],

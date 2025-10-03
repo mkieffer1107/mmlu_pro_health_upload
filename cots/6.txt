@@ -1,0 +1,18 @@
+<think>
+The hyoid bone is a U-shaped bone in the neck that supports the tongue and is not directly attached to other bones. In embryology, it develops from the mesenchyme of the pharyngeal arches. The second pharyngeal arch gives rise to the lesser horns (cornua) and the upper body of the hyoid, while the third pharyngeal arch gives rise to the greater horns and the lower body. The fourth pharyngeal arch is primarily involved in the development of laryngeal cartilages (e.g., thyroid and cricoid cartilages) and does not contribute to the hyoid bone. Other arches, such as the first, are not involved; the first arch forms structures like the mandible and muscles of mastication.
+
+Reviewing the options:
+
+A: Third and fourth arches – Incorrect, as the fourth arch is not involved.
+B: Fourth arch – Incorrect, as it is not the sole or primary contributor.
+C: Third arch – Incorrect, as the second arch is also essential (third → greater horn & lower body; second → lesser horn & upper body).
+D: Second arch – Incorrect, because the third arch contributes to the greater horns (and lower body); the second arch contributes to the lesser horns (and upper body).
+E: Second, third, and fourth arches – Incorrect, as the fourth arch does not contribute.
+F: First arch – Incorrect, as it is unrelated.
+G: Second and third arches – Correct, as both contribute to the hyoid bone.
+H: First and third arches – Incorrect, as the first arch is not involved.
+I: First, second, and third arches – Incorrect, as the first arch is not involved.
+J: First and second arches – Incorrect, as the first arch is not involved.
+Thus, the embryological origin is the second and third pharyngeal arches, corresponding to option G.
+</think>
+\boxed{G}

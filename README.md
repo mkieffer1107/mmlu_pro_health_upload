@@ -32,7 +32,7 @@ The question ID's of filtered rows are included below. In general, rows that are
 
 Filtering details related to the health category can be found [here](https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/discussions/31), and general deduping details of the MMLU-Pro dataset can be found [here](https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/discussions/33).
 
-**158 duplicate pairs identified in MMLU-Pro**:
+**158 duplicate pairs identified in MMLU-Pro (94 in the health split)**:
 ```sh
 python find_duplicates.py
 ```
